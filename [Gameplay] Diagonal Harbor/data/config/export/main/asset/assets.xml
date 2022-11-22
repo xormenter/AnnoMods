@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+
+<ModOps>
+	<ModOp GUID="1010522,101563,117861,1010523,101570,117863,1010525,101573,117864" Type="add" Path="/Values/Building">
+  		<AllowChangeVariation>1</AllowChangeVariation>
+	</ModOp>
+<!-- Puckle Guns -->
+	<ModOp GUID="1010522" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_defenses\harbor_04.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="101563" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_defenses\harbor_04_colony_01.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="117861" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_defenses\harbor_04_colony_01.cfg</Filename>
+		</Item>
+	</ModOp>
+
+<!-- Cannon Towers -->
+	<ModOp GUID="1010523" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_defenses\harbor_05.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="101570" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_defenses\harbor_05_colony_01.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="117863" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_defenses\harbor_05_colony_01.cfg</Filename>
+		</Item>
+	</ModOp>
+
+<!-- Harbor Cranes -->
+	<ModOp GUID="1010525" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_harbor\harbor_07.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="101573" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_harbor\harbor_07_colony_01.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="117864" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_harbor\harbor_07_colony_02.cfg</Filename>
+		</Item>
+	</ModOp>
+
+<!-- Depots -->
+	<ModOp GUID="1010519" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_harbor\harbor_01.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="101278" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_harbor\harbor_01_colony_01.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="112670" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\45degree_harbor\harbor_01_colony_03.cfg</Filename>
+		</Item>
+	</ModOp>
+
+<!-- Ornamental Quays (Small Quay mod) -->
+  <ModOp GUID="1010296" Type="addNextSibling" Path="/">
+    <Asset>
+      <Template>HarborOrnament</Template>
+	<Values>
+	<Standard>
+		<GUID>1404424000</GUID>
+		<Name>Large Ornamental Quay</Name>
+		<IconFilename>data\modgraphics\ui\icon_ornamental_pier.png</IconFilename>
+		<InfoDescription>1404424001</InfoDescription>
+	</Standard>
+	<Building>
+		<BuildingCategoryName>11149</BuildingCategoryName>
+		<TerrainType>Water_Excluding_Coast</TerrainType>
+		<BuildModeRandomRotation>90</BuildModeRandomRotation>
+		<AssociatedRegions>Moderate;Colony01;Africa;Arctic</AssociatedRegions>
+		<AllowChangeDirection>1</AllowChangeDirection>
+	</Building>
+	<Blocking/>
+	<Mesh/>
+	<Object>
+		<Variations>
+			<Item>
+				<Filename>data\modgraphics\small_quay\ornament\loading_ship.cfg</Filename>
+			</Item>
+			<Item>
+				<Filename>data\modgraphics\small_quay\ornament\loading_ship_02.cfg</Filename>
+			</Item>
+			<Item>
+				<Filename>data\modgraphics\small_quay\ornament\loading_ship_02_45_degree.cfg</Filename>
+			</Item>
+		</Variations>
+	</Object>
+	<AmbientMoodProvider/>
+	<Constructable/>
+	<Selection>
+		<OnSelection>
+		<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+		<Values>
+			<ActionList/>
+		</Values>
+		</OnSelection>
+	</Selection>
+	<Text>
+		<LocaText>
+		<English>
+			<Text>Docked Freighter</Text>
+			<Status>Exported</Status>
+		</English>
+		</LocaText>
+		<LineID>48605</LineID>
+	</Text>
+	<Cost>
+		<Costs>
+		<Item>
+			<VectorElement>
+			<InheritanceMapV2>
+				<Entry>
+				<TemplateName>OrnamentalBuilding</TemplateName>
+				<Index>0</Index>
+				</Entry>
+			</InheritanceMapV2>
+			</VectorElement>
+			<Ingredient>1010017</Ingredient>
+			<Amount>300</Amount>
+		</Item>
+		<Item>
+			<VectorElement>
+			<InheritedIndex>1</InheritedIndex>
+			<InheritanceMapV2>
+				<Entry>
+				<TemplateName>OrnamentalBuilding</TemplateName>
+				<Index>1</Index>
+				</Entry>
+				<Entry>
+				<TemplateName>HarborOrnament</TemplateName>
+				<Index>1</Index>
+				</Entry>
+			</InheritanceMapV2>
+			</VectorElement>
+		</Item>
+		<Item>
+			<VectorElement>
+			<InheritedIndex>2</InheritedIndex>
+			<InheritanceMapV2>
+				<Entry>
+				<TemplateName>OrnamentalBuilding</TemplateName>
+				<Index>2</Index>
+				</Entry>
+				<Entry>
+				<TemplateName>HarborOrnament</TemplateName>
+				<Index>2</Index>
+				</Entry>
+			</InheritanceMapV2>
+			</VectorElement>
+		</Item>
+		<Item>
+			<VectorElement>
+			<InheritedIndex>3</InheritedIndex>
+			<InheritanceMapV2>
+				<Entry>
+				<TemplateName>OrnamentalBuilding</TemplateName>
+				<Index>3</Index>
+				</Entry>
+				<Entry>
+				<TemplateName>HarborOrnament</TemplateName>
+				<Index>3</Index>
+				</Entry>
+			</InheritanceMapV2>
+			</VectorElement>
+		</Item>
+		<Item>
+			<VectorElement>
+			<InheritedIndex>4</InheritedIndex>
+			<InheritanceMapV2>
+				<Entry>
+				<TemplateName>OrnamentalBuilding</TemplateName>
+				<Index>4</Index>
+				</Entry>
+				<Entry>
+				<TemplateName>HarborOrnament</TemplateName>
+				<Index>4</Index>
+				</Entry>
+			</InheritanceMapV2>
+			</VectorElement>
+		</Item>
+		<Item>
+			<VectorElement>
+			<InheritedIndex>5</InheritedIndex>
+			<InheritanceMapV2>
+				<Entry>
+				<TemplateName>OrnamentalBuilding</TemplateName>
+				<Index>5</Index>
+				</Entry>
+				<Entry>
+				<TemplateName>HarborOrnament</TemplateName>
+				<Index>5</Index>
+				</Entry>
+			</InheritanceMapV2>
+			</VectorElement>
+		</Item>
+		</Costs>
+	</Cost>
+	<Attackable/>
+	<Infolayer/>
+	<Maintenance/>
+	<Locked/>
+	<Ornament>
+		<PlazzaSize>0</PlazzaSize>
+		<OrnamentUnit>12</OrnamentUnit>
+		<OrnamentDescription>132550</OrnamentDescription>
+	</Ornament>
+	<FeedbackController/>
+	<SoundEmitter>
+		<ActiveSounds>
+		<Item>
+			<Sound>279472</Sound>
+		</Item>
+		</ActiveSounds>
+		<DestroySounds>
+		<Item>
+			<Sound>9818756</Sound>
+		</Item>
+		</DestroySounds>
+	</SoundEmitter>
+	</Values>
+    </Asset>
+  </ModOp>
+
+	<ModOp Type="addNextSibling" GUID="501007" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101339']">
+		<Item>
+		<Building>1404424000</Building>
+		</Item>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID="500952" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010567']">
+		<Item>
+		<Building>1404424000</Building>
+		</Item>
+	</ModOp>
+		<ModOp Type="addNextSibling" GUID="114555" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117870']">
+		<Item>
+		<Building>1404424000</Building>
+		</Item>
+	</ModOp>
+
+  <ModOp Type="addnextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1404424005</GUID>
+          <Name>MOD Trigger Ornamental Loading Pier</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition/>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action/>
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1404424000</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+						<Item>
+                        <Asset>1404424000</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

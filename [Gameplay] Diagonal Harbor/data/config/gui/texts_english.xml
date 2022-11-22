@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404424000</GUID>
+      <Text>Ornamental Loading Pier</Text>
+    </Text>
+    <Text>
+      <GUID>1404424001</GUID>
+      <Text>Your workers are unloading a ship.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

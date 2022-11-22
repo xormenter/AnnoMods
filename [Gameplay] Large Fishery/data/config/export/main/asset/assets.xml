@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+
+<ModOps>
+	  <ModOp Type="addNextSibling" GUID='1010278'>
+		<Asset>
+			<BaseAssetGUID>1010278</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404423000</GUID>
+					<Name>MOD Large Fishery</Name>
+					<IconFilename>data\modgraphics\icons\icon_fishery_2.png</IconFilename>
+				</Standard>
+				<Blocking />
+				<Building>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant> <!-- tell AI to ignore this building -->
+				</Building>
+          		<Cost>
+					<Costs>
+						<Item>
+						<Ingredient>1010017</Ingredient>
+						<!-- Münzen -->
+						<Amount>1000</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010196</Ingredient>
+						<!-- Bretter -->
+						<Amount>10</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010205</Ingredient>
+						<!-- Ziegelsteine -->
+						<Amount>10</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010218</Ingredient>
+						<!-- Stahlträger -->
+						<Amount>5</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010207</Ingredient>
+						<!-- Fenster -->
+						</Item>
+						<Item>
+						<Ingredient>1010202</Ingredient>
+						<!-- Stahlbeton -->
+						</Item>
+					</Costs>
+				</Cost>
+				<Mesh />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\industrial_fishery\industrial_fishery.cfg</Filename>
+						</Item>
+						
+					</Variations>
+				</Object>
+				<Selection>
+					<ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Text />
+				<Constructable />
+				<Locked />
+				<Upgradable />
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+						<Item>
+							<VectorElement>
+							<InheritedIndex>0</InheritedIndex>
+							<InheritanceMapV2>
+								<Entry>
+								<TemplateName>FactoryBuilding7</TemplateName>
+								<Index>0</Index>
+								</Entry>
+							</InheritanceMapV2>
+							</VectorElement>
+							<Sound>214784</Sound>
+						</Item>
+						</BuildSuccessful>
+						<BuildMoveSuccess>
+						<Item>
+							<Sound>214784</Sound>
+						</Item>
+						<Item>
+							<VectorElement>
+							<InheritedIndex>0</InheritedIndex>
+							<InheritanceMapV2>
+								<Entry>
+								<TemplateName>FactoryBuilding7</TemplateName>
+								<Index>0</Index>
+								</Entry>
+							</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						</BuildMoveSuccess>
+					</ConstructionSounds>
+					<RFX>
+						<Item>
+						<RFX>240013</RFX>
+						</Item>
+					</RFX>
+					<IncidentSounds>
+						<InfectedFire>
+						<Item>
+							<Sound>214659</Sound>
+						</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRuined>
+						<Item>
+						<Sound>203848</Sound>
+						</Item>
+					</BuildingRuined>
+					<BuildingRepaired>
+						<Item>
+						<Sound>203866</Sound>
+						</Item>
+						<Item>
+						<VectorElement>
+							<InheritedIndex>0</InheritedIndex>
+							<InheritanceMapV2>
+							<Entry>
+								<TemplateName>FactoryBuilding7</TemplateName>
+								<Index>0</Index>
+							</Entry>
+							</InheritanceMapV2>
+						</VectorElement>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<Infolayer />
+				<FeedbackController />
+				<Factory7/>
+				<FactoryBase>
+					<FactoryOutputs>
+						<Item>
+						<Product>1010200</Product>
+						<!-- Fische -->
+						<Amount>1</Amount>
+						<StorageAmount>15</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>15</CycleTime>
+					<IsMainFactory>0</IsMainFactory>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+						<Product>1010017</Product>
+						<!-- Münzen -->
+						<Amount>120</Amount>
+						<InactiveAmount>60</InactiveAmount>
+						</Item>
+						<Item>
+						<Product>1010115</Product>
+						<Amount>50</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<LogisticNode />
+				<AmbientMoodProvider />
+				<UpgradeList />
+				<Attackable />
+				<IncidentInfectable />
+				<Pausable />
+				<Industrializable>
+					<BoostedByIndustrialization>1</BoostedByIndustrialization>
+				</Industrializable>
+				<Culture>
+					<CultureType>Culture</CultureType>
+				</Culture>
+				<QuestObject/>
+				<Electrifiable/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+	<ModOp GUID="115992" Type="addNextSibling">
+		<Asset>
+		<Template>TrafficFeedbackUnit</Template>
+		<Values>
+			<Standard>
+			<GUID>1404423003</GUID>
+			<Name>Large Fishing Ship</Name>
+			</Standard>
+			<TrafficFeedbackUnit>
+			<UnitType>Ship</UnitType>
+			<CfgPath>data\modgraphics\large_fishing_boat\large_fishing_boat.cfg</CfgPath>
+			</TrafficFeedbackUnit>
+			<Trailer/>
+		</Values>
+		</Asset>
+  </ModOp>
+
+
+	<ModOp GUID="141657" Type="addNextSibling">
+		<Asset>
+		<Template>FeedbackUnitClass</Template>
+		<Values>
+			<Standard>
+			<GUID>1404423004</GUID>
+			<Name>ModFishingBoatLarge</Name>
+			</Standard>
+			<TrafficFeedbackClass>
+			<DefaultBehaviour>FishingBoat</DefaultBehaviour>
+			<UnitAssets>
+				<Item>
+				<UnitAsset>1404423003</UnitAsset> 
+				</Item>
+			</UnitAssets>
+			<AllowedReactions/>
+			<ClassFlags>IsChild</ClassFlags>
+			<UseSpecialPathPlannerLayer_Deprecated>1</UseSpecialPathPlannerLayer_Deprecated>
+			<SpecialPathPlannerLayer>Fishery</SpecialPathPlannerLayer>
+			</TrafficFeedbackClass>
+		</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp GUID="2001096" Type="add" Path="/Values/FeedbackSessionDescription/FisheryConfig/BuildingSetup">
+		<Item>
+			<Building>1404423000</Building>
+			<FisherFeedbackClass>1404423004</FisherFeedbackClass>
+		</Item>
+	</ModOp>
+
+<!-- Item Effect -->
+	<ModOp Type="add" GUID="193879,190611,190897,6000018,193875,193856,190779,193400" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404423000</GUID>
+		</Item>
+	</ModOp>
+<!-- Workforce Boosting -->
+	<ModOp GUID="25000087" Type="add" Path= "/Values/WorkforceMenu/BoostableFactories">
+		<Item>
+		<Factory>1404423000</Factory>
+		</Item>
+	</ModOp>
+<!-- Build Menu Artisans -->
+	<ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010361']">
+		<Item>
+		<Building>1404423000</Building>
+		</Item>
+	</ModOp>
+
+<!-- Build Menu Harbor -->
+	<ModOp Type="addNextSibling" GUID="500903" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010278']">
+		<Item>
+		<Building>1404423000</Building>
+		</Item>
+	</ModOp>
+  
+  
+  <ModOp Type="addnextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1404423002</GUID>
+          <Name>MOD Trigger Large Fishery</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition/>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action/>
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1404423000</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1404423000</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

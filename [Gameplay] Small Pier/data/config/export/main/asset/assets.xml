@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<ModOps>
+	<ModOp GUID="101344,125191" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\small_quay\nw\small_quay.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\nw\small_quay_02.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\nw\small_quay_45_degree.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\nw\small_quay_45_degree_02.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="125193,117871" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\small_quay\af\small_quay.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\af\small_quay_02.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\af\small_quay_45_degree.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\af\small_quay_45_degree_02.cfg</Filename>
+		</Item>
+	</ModOp>
+	<ModOp GUID="100519,125028" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay_02.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay_45_degree.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay_45_degree_02.cfg</Filename>
+		</Item>
+	</ModOp>
+
+	<ModOp GUID="116030,125192" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\small_quay\arctic\small_quay.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay_02.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay_45_degree.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\small_quay_45_degree_02.cfg</Filename>
+		</Item>
+	</ModOp>
+
+	<ModOp GUID="132532,132542" Type="add" Path="/Values/Object/Variations">
+		<Item>
+			<Filename>data\modgraphics\small_quay\ornament\loading_ship.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\ornament\loading_ship_02.cfg</Filename>
+		</Item>
+		<Item>
+			<Filename>data\modgraphics\small_quay\ornament\quay_filler.cfg</Filename>
+		</Item>
+	</ModOp>
+
+	<ModOp GUID="100519,125028,101344,116030,125191,125192,125193,117871,132379,270038" Type="add" Path="/Values/Building">
+  		<AllowChangeVariation>1</AllowChangeVariation>
+	</ModOp>
+
+</ModOps>

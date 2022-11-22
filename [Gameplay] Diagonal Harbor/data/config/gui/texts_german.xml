@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404424000</GUID>
+      <Text>Ladekai (Ziergebäude)</Text>
+    </Text>
+        <Text>
+      <GUID>1404424001</GUID>
+      <Text>Ein Schiff wird entladen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

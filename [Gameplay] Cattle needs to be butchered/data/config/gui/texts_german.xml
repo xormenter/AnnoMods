@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404422300</GUID>
+			<Text>Rinder</Text>
+		</Text>
+		<Text>
+			<GUID>1404422301</GUID>
+			<Text>Muuuuh.</Text>
+		</Text>
+		<Text>
+			<GUID>1404422305</GUID>
+			<Text>Rinderschlachterei</Text>
+		</Text>
+		<Text>
+			<GUID>1404422306</GUID>
+			<Text>Rinderschlachterei</Text>
+		</Text>
+		<Text>
+			<GUID>1404422352</GUID>
+			<Text>Produziert Fleisch aus Rindern.</Text>
+		</Text>
+		<Text>
+			<GUID>1404422310</GUID>
+			<Text>Industrielle Schlachterei</Text>
+		</Text>
+	</ModOp>
+</ModOps>
