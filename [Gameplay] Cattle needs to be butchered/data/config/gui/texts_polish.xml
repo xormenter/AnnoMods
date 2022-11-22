@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404422300</GUID>
+			<Text>Bydło</Text>
+		</Text>
+		<Text>
+			<GUID>1404422301</GUID>
+			<Text>Muuuu.</Text>
+		</Text>
+		<Text>
+			<GUID>1404422305</GUID>
+			<Text>Rzeźnia</Text>
+		</Text>
+		<Text>
+			<GUID>1404422306</GUID>
+			<Text>Rzeźnia</Text>
+		</Text>
+		<Text>
+			<GUID>1404422352</GUID>
+			<Text>Produkuje mięso z bydła.</Text>
+		</Text>
+		<Text>
+			<GUID>1404422310</GUID>
+			<Text>Duża rzeźnia</Text>
+		</Text>
+	</ModOp>
+</ModOps>

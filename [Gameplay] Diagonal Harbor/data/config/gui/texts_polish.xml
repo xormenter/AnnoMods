@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404424000</GUID>
+      <Text>Ozdobny pirs</Text>
+    </Text>
+    <Text>
+      <GUID>1404424001</GUID>
+      <Text>Twoi robotnicy rozładowują statek.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
