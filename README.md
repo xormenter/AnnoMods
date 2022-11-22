@@ -70,3 +70,6 @@ Adds an ornamental loading pier (both straight and diagonal) that fits nicely wi
 
 ## Advertisement :-)
 You know a little bit about blender or are willing to dive into it? Then I have good news for you: Making your own in-game assets is relatively easy. https://github.com/xormenter/Blender-Anno-.cfg-Import-Addon
+And thankfully, getting your assets in game is also easy, thanks to Jakobs VS Code Plugin. https://github.com/jakobharder/anno-1800-jakobs-mods
+Furthermore, there's a helpful community of modders. https://discord.gg/YTQGDFK
+Huge thanks to all these pioneers of anno modding who figured out the intricate details of .rda and .rdm files and made modding possible.
