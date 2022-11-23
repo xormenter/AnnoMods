@@ -126,12 +126,12 @@
 						<Item>
 							<Product>1010017</Product>
 							<!-- Münzen -->
-							<Amount>250</Amount>
-							<InactiveAmount>125</InactiveAmount>
+							<Amount>150</Amount>
+							<InactiveAmount>75</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1010115</Product>
-							<Amount>150</Amount>
+							<Amount>125</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
@@ -318,12 +318,12 @@
 						<Item>
 							<Product>1010017</Product>
 							<!-- Münzen -->
-							<Amount>200</Amount>
-							<InactiveAmount>100</InactiveAmount>
+							<Amount>125</Amount>
+							<InactiveAmount>62</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1010115</Product>
-							<Amount>80</Amount>
+							<Amount>20</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
@@ -873,7 +873,7 @@
 						<Item>
 							<Ingredient>1010205</Ingredient>
 							<!-- Ziegelsteine -->
-							<Amount>40</Amount>
+							<Amount>20</Amount>
 						</Item>
 						<Item>
 							<Ingredient>1010218</Ingredient>
@@ -883,7 +883,7 @@
 						<Item>
 							<Ingredient>1010207</Ingredient>
 							<!-- Fenster -->
-							<Amount>5</Amount>
+							<Amount>0</Amount>
 						</Item>
 						<Item>
 							<Ingredient>1010202</Ingredient>
@@ -956,7 +956,7 @@
 							<StorageAmount>20</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>10</CycleTime>
+					<CycleTime>5</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
