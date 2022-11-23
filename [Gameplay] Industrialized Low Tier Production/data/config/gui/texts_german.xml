@@ -1,0 +1,144 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404423005</GUID>
+      <Text>Großbäckerei</Text>
+    </Text>
+    <Text>
+      <GUID>1404423010</GUID>
+      <Text>Elektrische Mühle</Text>
+    </Text>
+    <Text>
+      <GUID>1404423011</GUID>
+      <Text>Fortschrittliche Brotproduktion</Text>
+    </Text>
+      <Text>
+      <GUID>1404423015</GUID>
+      <Text>Textilfabrik</Text>
+    </Text>
+    <Text>
+      <GUID>1404423016</GUID>
+      <Text>Fortschrittliche Arbeitskleidungsproduktion</Text>
+    </Text>
+    <Text>
+      <GUID>1404423020</GUID>
+      <Text>Große Schnapsbrennerei</Text>
+    </Text>
+    <Text>
+      <GUID>1404423021</GUID>
+      <Text>Fortschrittliche Schnapsproduktion</Text>
+    </Text>
+    <Text>
+      <GUID>1404423025</GUID>
+      <Text>Großes Sägewerk</Text>
+    </Text>
+    <Text>
+      <GUID>1404423026</GUID>
+      <Text>Fortschrittliche Holzverarbeitung</Text>
+    </Text>
+    <Text>
+      <GUID>1404423027</GUID>
+      <Text>Großes Sägewerk</Text>
+    </Text>
+    <Text>
+      <GUID>1404423028</GUID>
+      <Text>Fortschrittliche Holzverarbeitung</Text>
+    </Text>
+    <Text>
+      <GUID>1404423030</GUID>
+      <Text>Große Segelmacherei</Text>
+    </Text>
+    <Text>
+      <GUID>1404423031</GUID>
+      <Text>Fortschrittliche Segelproduktion</Text>
+    </Text>
+      <Text>
+      <GUID>1404423035</GUID>
+      <Text>Wurstwarenfabrik</Text>
+    </Text>
+    <Text>
+      <GUID>1404423036</GUID>
+      <Text>Fortschrittliche Wurstproduktion</Text>
+    </Text>
+  <Text>
+      <GUID>1404423040</GUID>
+      <Text>Großer Hochofen</Text>
+    </Text>
+    <Text>
+      <GUID>1404423045</GUID>
+      <Text>Großes Stahlwerk</Text>
+    </Text>
+    <Text>
+      <GUID>1404423041</GUID>
+      <Text>Fortschrittliche Stahlverarbeitung</Text>
+    </Text>
+    <Text>
+      <GUID>1404423043</GUID>
+      <Text>Fortschrittliche Produktion</Text>
+    </Text>
+    <Text>
+      <GUID>1404423044</GUID>
+      <Text>Fortschrittliche Produktionsketten</Text>
+    </Text>
+      <Text>
+      <GUID>1404423050</GUID>
+      <Text>Große Seiferei</Text>
+    </Text>
+    <Text>
+      <GUID>1404423051</GUID>
+      <Text>Große Wasenmeisterei</Text>
+    </Text>
+    <Text>
+      <GUID>1404423052</GUID>
+      <Text>Fortschrittliche Seifenherstellung</Text>
+    </Text>
+        <Text>
+      <GUID>1404423054</GUID>
+      <Text>Gefütterte Tiere</Text>
+    </Text>
+    <Text>
+      <GUID>1404423060</GUID>
+      <Text>Hungrige Tiere</Text>
+    </Text>
+    <Text>
+      <GUID>1404423055</GUID>
+      <Text>Schweinemaststall</Text>
+    </Text>
+     <Text>
+      <GUID>1404423058</GUID>
+      <Text>Silo (Schweinefutter)</Text>
+    </Text>
+    <Text>
+      <GUID>1404423056</GUID>
+      <Text>Großer Schweinestall</Text>
+    </Text>
+    <Text>
+      <GUID>1404423061</GUID>
+      <Text>Melkstand</Text>
+    </Text>
+    <Text>
+      <GUID>1404423067</GUID>
+      <Text>Produziert Milch aus Kühen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404423068</GUID>
+      <Text>Lagert das Tierfutter. Ohne Futter wird nichts produziert.</Text>
+    </Text>
+    <Text>
+      <GUID>1404423065</GUID>
+      <Text>Industrielle Kuhhaltung</Text>
+    </Text>
+    <Text>
+      <GUID>1404423066</GUID>
+      <Text>Großer Kuhstall</Text>
+    </Text>
+    <Text>
+      <GUID>1404423062</GUID>
+      <Text>Produziert Milch</Text>
+    </Text>
+    <Text>
+      <GUID>1404423064</GUID>
+      <Text>Silo (Kuhfutter)</Text>
+    </Text>
+  </ModOp>
+</ModOps>
