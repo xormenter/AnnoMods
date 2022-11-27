@@ -126,8 +126,8 @@
 						<Item>
 							<Product>1010017</Product>
 							<!-- Münzen -->
-							<Amount>150</Amount>
-							<InactiveAmount>75</InactiveAmount>
+							<Amount>120</Amount>
+							<InactiveAmount>60</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1010115</Product>
@@ -784,7 +784,7 @@
 					</IncidentInfectionChanceFactors>
 				</IncidentInfectable>
 				<Industrializable>
-					<MandatoryIndustrialization>1</MandatoryIndustrialization>
+					<!-- <MandatoryIndustrialization>1</MandatoryIndustrialization> -->
 				</Industrializable>
 				<Culture>
 					<CultureType>Culture</CultureType>
@@ -1187,12 +1187,12 @@
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>30</Amount>
-							<InactiveAmount>15</InactiveAmount>
+							<Amount>20</Amount>
+							<InactiveAmount>10</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1010115</Product>
-							<Amount>30</Amount>
+							<Amount>15</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
@@ -1362,12 +1362,12 @@
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>30</Amount>
-							<InactiveAmount>15</InactiveAmount>
+							<Amount>20</Amount>
+							<InactiveAmount>10</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1010366</Product>
-							<Amount>30</Amount>
+							<Amount>15</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>

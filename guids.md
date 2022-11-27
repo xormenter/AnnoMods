@@ -54,3 +54,6 @@
 |1.404.423.066 | advanced agriculture_08_field (Cattle Sty) | Advanced Cattle Sty | Farmfield | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.424.000 | Large Ornamental Quay | Ornamental Loading Pier | HarborOrnament | [Gameplay] Diagonal Harbor | addNextSibling |
 |1.404.424.005 | MOD Trigger Ornamental Loading Pier |  | Trigger | [Gameplay] Diagonal Harbor | addnextSibling |
+|1.404.424.050 | fuel generator ow | Fuel Generator | PowerplantBuilding | [Gameplay] Fuel Generator | addNextSibling |
+|1.404.424.051 | fuel generator nw | Fuel Generator | FactoryBuilding7 | [Gameplay] Fuel Generator | addNextSibling |
+|1.404.424.056 | MOD Trigger Fuel Generators |  | Trigger | [Gameplay] Fuel Generator | addnextSibling |
