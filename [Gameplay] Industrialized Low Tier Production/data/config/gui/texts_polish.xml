@@ -1,0 +1,144 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404423005</GUID>
+      <Text>Duża piekarnia</Text>
+    </Text>
+    <Text>
+      <GUID>1404423010</GUID>
+      <Text>Elektryczny młyn</Text>
+    </Text>
+    <Text>
+      <GUID>1404423011</GUID>
+      <Text>Zaawansowana produkcja chleba</Text>
+    </Text>
+    <Text>
+      <GUID>1404423015</GUID>
+      <Text>Zakłady włókiennicze</Text>
+    </Text>
+    <Text>
+      <GUID>1404423016</GUID>
+      <Text>Zaawansowana produkcja ubrań roboczych</Text>
+    </Text>
+    <Text>
+      <GUID>1404423020</GUID>
+      <Text>Duża gorzelnia</Text>
+    </Text>
+    <Text>
+      <GUID>1404423021</GUID>
+      <Text>Zaawansowana produkcja alkoholu</Text>
+    </Text>
+    <Text>
+      <GUID>1404423025</GUID>
+      <Text>Zaawansowany tartak</Text>
+    </Text>
+    <Text>
+      <GUID>1404423026</GUID>
+      <Text>Zaawansowana produkcja desek</Text>
+    </Text>
+    <Text>
+      <GUID>1404423027</GUID>
+      <Text>Zaawansowany tartak</Text>
+    </Text>
+    <Text>
+      <GUID>1404423028</GUID>
+      <Text>Zaawansowana produkcja desek</Text>
+    </Text>
+    <Text>
+      <GUID>1404423030</GUID>
+      <Text>Zakład żaglomistrza</Text>
+    </Text>
+    <Text>
+      <GUID>1404423031</GUID>
+      <Text>Zaawansowana produkcja żagli</Text>
+    </Text>
+    <Text>
+      <GUID>1404423035</GUID>
+      <Text>Fabryka kiełbasy</Text>
+    </Text>
+    <Text>
+      <GUID>1404423036</GUID>
+      <Text>Zaawansowana produkcja kiełbasy</Text>
+    </Text>
+    <Text>
+      <GUID>1404423040</GUID>
+      <Text>Duży piec hutniczy</Text>
+    </Text>
+    <Text>
+      <GUID>1404423045</GUID>
+      <Text>Duża stalownia</Text>
+    </Text>
+    <Text>
+      <GUID>1404423041</GUID>
+      <Text>Zaawansowana produkcja stali</Text>
+    </Text>
+    <Text>
+      <GUID>1404423043</GUID>
+      <Text>Zaawansowana produkcja</Text>
+    </Text>
+    <Text>
+      <GUID>1404423044</GUID>
+      <Text>Zaawansowane łańcuchy produkcyjne</Text>
+    </Text>
+      <Text>
+      <GUID>1404423050</GUID>
+      <Text>Duża wytwórnia mydła</Text>
+    </Text>
+    <Text>
+      <GUID>1404423051</GUID>
+      <Text>Duża wytwórnia łoju</Text>
+    </Text>
+    <Text>
+      <GUID>1404423052</GUID>
+      <Text>Zaawansowana produkcja mydła</Text>
+    </Text>
+    <Text>
+      <GUID>1404423054</GUID>
+      <Text>Karmienie zwierząt</Text>
+    </Text>
+    <Text>
+      <GUID>1404423060</GUID>
+      <Text>Głodne zwierzęta</Text>
+    </Text>
+    <Text>
+      <GUID>1404423055</GUID>
+      <Text>Ferma trzody chlewnej</Text>
+    </Text>
+     <Text>
+      <GUID>1404423058</GUID>
+      <Text>Silos (Pasza świń)</Text>
+    </Text>
+    <Text>
+      <GUID>1404423056</GUID>
+      <Text>Chlew </Text>
+    </Text>
+    <Text>
+      <GUID>1404423061</GUID>
+      <Text>Dojarnia</Text>
+    </Text>
+    <Text>
+      <GUID>1404423067</GUID>
+      <Text>Pozyskuje mleko z bydła. Z powodów nieznanych waszym farmerom, produkcja mleka jest zabójrza dla krów.</Text>
+    </Text>
+    <Text>
+      <GUID>1404423068</GUID>
+      <Text>Przechowuje paszę dla zwierząt i umożliwia produkcję.</Text>
+    </Text>
+    <Text>
+      <GUID>1404423065</GUID>
+      <Text>Ferma bydła</Text>
+    </Text>
+    <Text>
+      <GUID>1404423066</GUID>
+      <Text>Obora</Text>
+    </Text>
+    <Text>
+      <GUID>1404423062</GUID>
+      <Text>Wytwarzanie mleka</Text>
+    </Text>
+    <Text>
+      <GUID>1404423064</GUID>
+      <Text>Silos (Pasza bydła)</Text>
+    </Text>
+  </ModOp>
+</ModOps>
