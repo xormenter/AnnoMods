@@ -1,5 +1,6 @@
 # AnnoMods
-A collection of mods for Anno 1800
+A collection of mods for Anno 1800.
+For screenshots, I refer to their respective Nexus pages. https://www.nexusmods.com/anno1800/users/117341793?tab=user+files&BH=1
 
 # How to use
 - Get the mod loader https://github.com/xforce/anno1800-mod-loader 
