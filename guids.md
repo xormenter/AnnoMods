@@ -1,6 +1,15 @@
 # GUID Overview:
 | GUID | Name | In-Game Name | Template | Mod | Operation |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+|117.268 | arctic canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
+|500.008 | canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
+|500.911 | colony01 burrito chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
+|1.404.420.055 | production chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | addNextSibling |
+|1.404.422.300 | Cattle | Cattle | Product | [Gameplay] Cattle needs to be butchered | addNextSibling |
+|1.404.422.305 | mod_butcher | Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
+|1.404.422.306 | mod_SA_butcher | Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
+|1.404.422.307 | MOD Trigger |  | Trigger | [Gameplay] Cattle needs to be butchered | addnextSibling |
+|1.404.422.310 | advanced meat butcher | Large Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
 |1.404.423.000 | MOD Large Fishery | Large Fishery | None | [Gameplay] Large Fishery | addNextSibling |
 |1.404.423.002 | MOD Trigger Large Fishery |  | Trigger | [Gameplay] Large Fishery | addnextSibling |
 |1.404.423.003 | Large Fishing Ship |  | TrafficFeedbackUnit | [Gameplay] Large Fishery | addNextSibling |

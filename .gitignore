@@ -1,3 +1,5 @@
 
+*.ini
 *.glb
-UPDATE.py
+UPDATE_TO_GIT.py
+UPDATE_TO_MODS.py
