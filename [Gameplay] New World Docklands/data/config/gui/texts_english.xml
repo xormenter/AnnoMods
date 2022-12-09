@@ -1,0 +1,71 @@
+<ModOps>
+	<!-- Products -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404422063</GUID>
+			<Text>Depot</Text>
+		</Text>
+		<Text>
+			<GUID>1404422090</GUID>
+			<Text>Depot (without blocking)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422070</GUID>
+			<Text>Docklands</Text>
+		</Text>
+		<Text>
+			<GUID>1404422060</GUID>
+			<Text>Pier</Text>
+		</Text>
+		<Text>
+			<GUID>1404422077</GUID>
+			<Text>Repair Crane</Text>
+		</Text>
+		<Text>
+			<GUID>1404422061</GUID>
+			<Text>Harbor Master</Text>
+		</Text>
+		<Text>
+			<GUID>1404422078</GUID>
+			<Text>Loading Wharf</Text>
+		</Text>
+		<Text>
+			<GUID>1404422079</GUID>
+			<Text>Loading Wharf (Street Compatible Archways)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422062</GUID>
+			<Text>Exports Office</Text>
+		</Text>
+
+
+		<Text>
+			<GUID>1404422093</GUID>
+			<Text>Depot</Text>
+		</Text>
+		<Text>
+			<GUID>1404422099</GUID>
+			<Text>Docklands</Text>
+		</Text>
+		<Text>
+			<GUID>1404422094</GUID>
+			<Text>Pier</Text>
+		</Text>
+		<Text>
+			<GUID>1404422095</GUID>
+			<Text>Repair Crane</Text>
+		</Text>
+		<Text>
+			<GUID>1404422098</GUID>
+			<Text>Harbor Master</Text>
+		</Text>
+		<Text>
+			<GUID>1404422096</GUID>
+			<Text>Loading Wharf</Text>
+		</Text>
+		<Text>
+			<GUID>1404422092</GUID>
+			<Text>Exports Office</Text>
+		</Text>
+	</ModOp>
+</ModOps>

@@ -1,0 +1,50 @@
+{
+  "Version": "1.2",
+  "ModID": "NewWorldDocklands"
+  "IncompatibleIds": [
+  ],
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": null,
+    "German": "Gameplay"
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "New World Docklands",
+    "French": null,
+    "German": "Die Speicherstadt der Neuen Welt",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Adds Docklands to the New Worlds",
+    "French": null,
+    "German": "Fügt eine Speicherstadt für die neue Welt hinzu.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": Docklands,
+  "CreatorName": "Lrds/xormenter",
+  "Image" : null
+}

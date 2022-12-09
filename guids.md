@@ -5,6 +5,24 @@
 |500.008 | canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
 |500.911 | colony01 burrito chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
 |1.404.420.055 | production chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | addNextSibling |
+|1.404.422.001 | MOD_SA_Docklands_Trigger |  | Trigger | [Gameplay] New World Docklands | addnextSibling |
+|1.404.422.004 | MOD_Enbesa_Docklands_Trigger |  | Trigger | [Gameplay] New World Docklands | addnextSibling |
+|1.404.422.060 | Dockland_Module_Pier | Pier | DocklandPierModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.061 | Dockland_Module_Item | Harbor Master | DocklandItemModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.062 | Dockland_Module_Export | Exports Office | DocklandModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.063 | Dockland_Module_Storage | Depot | DocklandStorageModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.070 | Dockland - Main | Docklands | DocklandMain | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.077 | Dockland_Module_RepairCrane | Repair Crane | DocklandModuleRepair | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.078 | Dockland_Module_SpeedUp | Loading Wharf | DocklandModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.079 | Dockland_Module_SpeedUpArch | Loading Wharf (Street Compatible Archways) | DocklandModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.090 | Dockland_Module_StorageWithoutWater | Depot (without blocking) | DocklandStorageModule | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.092 | ExportOfficeEnbesa | Exports Office | None | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.093 | DepotEnbesa | Depot | None | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.094 | PierEnbesa | Pier | None | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.095 | RepairCraneEnbesa | Repair Crane | None | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.096 | LoadingWharfEnbesa | Loading Wharf | None | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.098 | HabourMasterEnbesa | Harbor Master | None | [Gameplay] New World Docklands | addNextSibling |
+|1.404.422.099 | Dockland - Main Enbesa | Docklands | DocklandMain | [Gameplay] New World Docklands | addNextSibling |
 |1.404.422.300 | Cattle | Cattle | Product | [Gameplay] Cattle needs to be butchered | addNextSibling |
 |1.404.422.305 | mod_butcher | Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
 |1.404.422.306 | mod_SA_butcher | Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |

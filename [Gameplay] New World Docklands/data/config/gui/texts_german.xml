@@ -1,0 +1,71 @@
+<ModOps>
+	<!-- Products -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404422063</GUID>
+			<Text>Depot</Text>
+		</Text>
+		<Text>
+			<GUID>1404422090</GUID>
+			<Text>Depot (ohne blocking)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422070</GUID>
+			<Text>Speicherstadt (Hauptgebäude)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422060</GUID>
+			<Text>Anlegestelle</Text>
+		</Text>
+		<Text>
+			<GUID>1404422077</GUID>
+			<Text>Reparaturkran</Text>
+		</Text>
+		<Text>
+			<GUID>1404422061</GUID>
+			<Text>Hafenmeisterei</Text>
+		</Text>
+		<Text>
+			<GUID>1404422078</GUID>
+			<Text>Verladekai</Text>
+		</Text>
+		<Text>
+			<GUID>1404422079</GUID>
+			<Text>Verladekai (Straßentaugliche Tore)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422062</GUID>
+			<Text>Exportbüro</Text>
+		</Text>
+
+
+		<Text>
+			<GUID>1404422093</GUID>
+			<Text>Depot</Text>
+		</Text>
+		<Text>
+			<GUID>1404422099</GUID>
+			<Text>Speicherstadt</Text>
+		</Text>
+		<Text>
+			<GUID>1404422094</GUID>
+			<Text>Anlegestelle</Text>
+		</Text>
+		<Text>
+			<GUID>1404422095</GUID>
+			<Text>Reparaturkran</Text>
+		</Text>
+		<Text>
+			<GUID>1404422098</GUID>
+			<Text>Hafenmeister</Text>
+		</Text>
+		<Text>
+			<GUID>1404422096</GUID>
+			<Text>Verladekai</Text>
+		</Text>
+		<Text>
+			<GUID>1404422092</GUID>
+			<Text>Exportbüro</Text>
+		</Text>
+	</ModOp>
+</ModOps>
