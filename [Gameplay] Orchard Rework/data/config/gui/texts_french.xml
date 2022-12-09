@@ -1,0 +1,188 @@
+<ModOps>
+ <ModOp Type = "add" Path = "/Textxport/Texts">
+<Text>
+<GUID>1404420030</GUID>
+<Text>Cerises</Text>
+</Text>
+<Text>
+<GUID>1404420031</GUID>
+<Text>Contrairement à la confiture, ceux-ci poussent sur les arbres.</Text>
+</Text>
+
+<Text>
+<GUID>1404420032</GUID>
+<Text>Pommes</Text>
+</Text>
+<Text>
+<GUID>1404420033</GUID>
+<Text>Une pomme par jour éloigne M. Gasparov, n'est-ce pas ?</Text>
+</Text>
+
+<Text>
+<GUID>1404420010</GUID>
+<Text>Verger d'agrumes</Text>
+</Text>
+<Text>
+<GUID>1404420011</GUID>
+<Text>Produit des marchandises.</Text>
+</Text>
+<Text>
+<GUID>1404420014</GUID>
+<Text>Verger de noix de coco</Text>
+</Text>
+<Text>
+<GUID>1404420015</GUID>
+<Text>Produit des marchandises.</Text>
+</Text>
+<Text>
+<GUID>1404420018</GUID>
+<Text>Verger de cannelle</Text>
+</Text>
+<Text>
+<GUID>1404420019</GUID>
+<Text>Produit des marchandises.</Text>
+</Text>
+<Text>
+<GUID>1404420022</GUID>
+<Text>Verger de camphrier</Text>
+</Text>
+<Text>
+<GUID>1404420023</GUID>
+<Text>Produit des marchandises.</Text>
+</Text>
+<Text>
+<GUID>133496</GUID>
+<Text>Cerisaie</Text>
+</Text>
+<Text>
+<GUID>1404420041</GUID>
+<Text>Produit des marchandises.</Text>
+</Text>
+<Text>
+<GUID>1404420046</GUID>
+<Text>Verger de pommiers</Text>
+</Text>
+<Text>
+<GUID>1404420047</GUID>
+<Text>Produit des marchandises.</Text>
+</Text>
+
+<Text>
+<GUID>1404420000</GUID>
+<Text>Champ d'agrumes</Text>
+</Text>
+<Text>
+<GUID>1404420001</GUID>
+<Text>Champ de noix de coco</Text>
+</Text>
+<Text>
+<GUID>1404420002</GUID>
+<Text>Champ Cannelle</Text>
+</Text>
+<Text>
+<GUID>1404420003</GUID>
+<Text>Champ Camphre</Text>
+</Text>
+<Text>
+<GUID>1404420004</GUID>
+<Text>Champ de cerise</Text>
+</Text>
+<Text>
+<GUID>1404420005</GUID>
+<Text>Champ Apple</Text>
+</Text>
+
+<Text>
+<GUID>1404420042</GUID>
+<Text>Confiture</Text>
+</Text>
+<Text>
+<GUID>1404420043</GUID>
+<Text>Produit des marchandises. Nécessite 2 cerises et 1 sucre pour produire 2 confitures.</Text>
+</Text>
+
+<Text>
+<GUID>1404420044</GUID>
+<Text>Confiture</Text>
+</Text>
+<Text>
+<GUID>2000010016</GUID>
+<Text>Produire de la confiture n'est pas aussi simple que certains pourraient le penser...</Text>
+</Text>
+
+<Text>
+<GUID>1404419500</GUID>
+<Text>Vergers</Text>
+</Text>
+<Text>
+<GUID>1404419501</GUID>
+<Text>Vergers</Text>
+</Text>
+<Text>
+<GUID>1404419502</GUID>
+<Text>Une variété de vergers.</Text>
+</Text>
+
+<Text>
+<GUID>1404419504</GUID>
+<Text>Vergers (Nouveau Monde)</Text>
+</Text>
+<Text>
+<GUID>1404419505</GUID>
+<Text>Vergers (Nouveau Monde)</Text>
+</Text>
+<Text>
+<GUID>1404419506</GUID>
+<Text>Une variété de vergers.</Text>
+</Text>
+
+<Text>
+<GUID>1404419000</GUID>
+<Text>Tarte aux pommes</Text>
+</Text>
+<Text>
+<GUID>1404419001</GUID>
+<Text>Cette tarte aux pommes est un dessert simple mais délicieux. Les touristes adorent le goût de ces pommes chaudes.</Text>
+</Text>
+
+<Text>
+<GUID>1404419006</GUID>
+<Text>Tarte aux pommes délicieuse</Text>
+</Text>
+
+<Text>
+<GUID>1404419007</GUID>
+<Text>Délicieuse tarte aux pommes</Text>
+</Text>
+
+<Text>
+<GUID>1404419005</GUID>
+<Text>Café : Tarte aux pommes</Text>
+</Text>
+
+<Text>
+<GUID>1404420050</GUID>
+<Text>Jean le Treehugger</Text>
+</Text>
+<Text>
+<GUID>1404420051</GUID>
+<Text>Il aime les arbres. Et ils semblent l'aimer aussi.</Text>
+</Text>
+<Text>
+<GUID>1404420052</GUID>
+<Text>Marlene Mère de Confiture</Text>
+</Text>
+<Text>
+<GUID>1404420053</GUID>
+<Text>Elle est mondialement connue pour ses propres créations de marmelade.</Text>
+</Text>
+<Text>
+<GUID>1404420054</GUID>
+<Text>Clara la cueilleuse de cerises</Text>
+</Text>
+<Text>
+<GUID>1404420055</GUID>
+<Text>Nous devrions l'employer dans les vergers, n'est-ce pas ?</Text>
+</Text>
+</ModOp>
+</ModOps>

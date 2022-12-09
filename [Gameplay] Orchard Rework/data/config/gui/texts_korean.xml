@@ -1,0 +1,188 @@
+<ModOps>
+	<ModOp Type = "add" Path = "/TextExport/Texts">
+ <Text>
+ <GUID>1404420030</GUID>
+ <Text>체리</Text>
+ </Text>
+ <Text>
+ <GUID>1404420031</GUID>
+ <Text>잼과 달리 나무에서 자랍니다.</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404420032</GUID>
+ <Text>사과</Text>
+ </Text>
+ <Text>
+ <GUID>1404420033</GUID>
+ <Text>하루에 사과 한 개가 가스파 로프 씨를 멀리하는 거죠?</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404420010</GUID>
+ <Text>감귤 과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404420011</GUID>
+ <Text>상품을 생산합니다.</Text>
+ </Text>
+ <Text>
+ <GUID>1404420014</GUID>
+ <Text>코코넛 과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404420015</GUID>
+ <Text>상품을 생산합니다.</Text>
+ </Text>
+ <Text>
+ <GUID>1404420018</GUID>
+ <Text>계피 과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404420019</GUID>
+ <Text>상품을 생산합니다.</Text>
+ </Text>
+ <Text>
+ <GUID>1404420022</GUID>
+ <Text>장뇌 과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404420023</GUID>
+ <Text>상품을 생산합니다.</Text>
+ </Text>
+ <Text>
+ <GUID>133496</GUID>
+ <Text>체리 과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404420041</GUID>
+ <Text>상품을 생산합니다.</Text>
+ </Text>
+ <Text>
+ <GUID>1404420046</GUID>
+ <Text>사과 과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404420047</GUID>
+ <Text>상품을 생산합니다.</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404420000</GUID>
+ <Text>감귤 밭</Text>
+ </Text>
+ <Text>
+ <GUID>1404420001</GUID>
+ <Text>코코넛 밭</Text>
+ </Text>
+ <Text>
+ <GUID>1404420002</GUID>
+ <Text>시나몬 밭</Text>
+ </Text>
+ <Text>
+ <GUID>1404420003</GUID>
+ <Text>장뇌 필드</Text>
+ </Text>
+ <Text>
+ <GUID>1404420004</GUID>
+ <Text>체리 필드</Text>
+ </Text>
+ <Text>
+ <GUID>1404420005</GUID>
+ <Text>Apple 필드</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404420042</GUID>
+ <Text>Jam Manufactury</Text>
+ </Text>
+ <Text>
+ <GUID>1404420043</GUID>
+ <Text>상품을 생산합니다. 잼 2 개를 생산하려면 체리 2 개와 설탕 1 개가 필요합니다.</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404420044</GUID>
+ <Text>Jam Manufactury</Text>
+ </Text>
+ <Text>
+ <GUID>2000010016</GUID>
+ <Text>잼 생산은 생각만큼 간단하지 않습니다 ...</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404419500</GUID>
+ <Text>과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404419501</GUID>
+ <Text>과수원</Text>
+ </Text>
+ <Text>
+ <GUID>1404419502</GUID>
+ <Text>다양한 과수원</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404419504</GUID>
+ <Text>과수원 (신세계)</Text>
+ </Text>
+ <Text>
+ <GUID>1404419505</GUID>
+ <Text>과수원 (신세계)</Text>
+ </Text>
+ <Text>
+ <GUID>1404419506</GUID>
+ <Text>다양한 과수원</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404419000</GUID>
+ <Text>애플 파이</Text>
+ </Text>
+ <Text>
+ <GUID>1404419001</GUID>
+ <Text>이 사과 파이는 단순하면서도 맛있는 사막이다. 관광객들은이 따뜻한 사과의 맛을 좋아합니다.</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404419006</GUID>
+ <Text>맛있는 애플 파이</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404419007</GUID>
+ <Text>맛있는 애플 파이</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404419005</GUID>
+ <Text>카페 : 애플 파이</Text>
+ </Text>
+  
+ <Text>
+ <GUID>1404420050</GUID>
+ <Text>John the Treehugger</Text>
+ </Text>
+ <Text>
+ <GUID>1404420051</GUID>
+ <Text>그는 나무를 좋아합니다. 그리고 그들도 그를 사랑하는 것 같습니다.</Text>
+ </Text>
+ <Text>
+ <GUID>1404420052</GUID>
+ <Text>Marlene Mother of Jam</Text>
+ </Text>
+ <Text>
+ <GUID>1404420053</GUID>
+ <Text>그녀는 자신 만의 마멀레이드 작품으로 세계적으로 유명합니다.</Text>
+ </Text>
+ <Text>
+ <GUID>1404420054</GUID>
+ <Text>체리 피커 클라라</Text>
+ </Text>
+ <Text>
+ <GUID>1404420055</GUID>
+ <Text>그녀를 과수원에서 고용해야 하죠?</Text>
+ </Text>
+ </ModOp>
+ </ModOps>

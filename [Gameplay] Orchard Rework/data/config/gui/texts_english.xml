@@ -1,0 +1,232 @@
+<ModOps>
+	<!-- Products -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420030</GUID>
+			<Text>Cherries</Text>
+		</Text>
+		<Text>
+			<GUID>1404420031</GUID>
+			<Text>In contrast to jam, these grow on trees.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1404420032</GUID>
+			<Text>Apples</Text>
+		</Text>
+		<Text>
+			<GUID>1404420033</GUID>
+			<Text>One apple a day keeps Mr. Gasparov away, right?</Text>
+		</Text>
+
+		<Text>
+			<GUID>1404420034</GUID>
+			<Text>Fir Resin</Text>
+		</Text>
+		<Text>
+			<GUID>1404420035</GUID>
+			<Text>Quite sticky.</Text>
+		</Text>
+	</ModOp>
+	<!-- Orchards -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420010</GUID>
+			<Text>Citrus Orchard</Text>
+		</Text>
+		<Text>
+			<GUID>1404420011</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420014</GUID>
+			<Text>Coconut Orchard</Text>
+		</Text>
+		<Text>
+			<GUID>1404420015</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420018</GUID>
+			<Text>Cinnamon Orchard</Text>
+		</Text>
+		<Text>
+			<GUID>1404420019</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420022</GUID>
+			<Text>Camphor Orchard</Text>
+		</Text>
+		<Text>
+			<GUID>1404420023</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+		<Text>
+			<GUID>133496</GUID>
+			<Text>Orchard: Cherries</Text>
+		</Text>
+		<Text>
+			<GUID>1404420041</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420046</GUID>
+			<Text>Apple Orchard</Text>
+		</Text>
+		<Text>
+			<GUID>1404420047</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420048</GUID>
+			<Text>Fir Plantation</Text>
+		</Text>
+		<Text>
+			<GUID>1404420049</GUID>
+			<Text>Produces goods.</Text>
+		</Text>
+	</ModOp>
+	<!-- Orchard Fields-->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420000</GUID>
+			<Text>Citrus Field</Text>
+		</Text>
+		<Text>
+			<GUID>1404420001</GUID>
+			<Text>Coconut Field</Text>
+		</Text>
+		<Text>
+			<GUID>1404420002</GUID>
+			<Text>Cinnamon Field</Text>
+		</Text>
+		<Text>
+			<GUID>1404420003</GUID>
+			<Text>Camphor Field</Text>
+		</Text>
+		<Text>
+			<GUID>1404420004</GUID>
+			<Text>Cherry Field</Text>
+		</Text>
+		<Text>
+			<GUID>1404420005</GUID>
+			<Text>Apple Field</Text>
+		</Text>
+		<Text>
+			<GUID>1404420006</GUID>
+			<Text>Fir Plantation</Text>
+		</Text>
+		<Text>
+			<GUID>1404420007</GUID>
+			<Text>Cherry Wood Plantation</Text>
+		</Text>
+	</ModOp>
+	<!-- Jam Manufactory -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420042</GUID>
+			<Text>Jam Manufactury</Text>
+		</Text>
+		<Text>
+			<GUID>1404420043</GUID>
+			<Text>Produces goods. Needs 2 cherries and 1 sugar to produce 2 jam.</Text>
+		</Text>
+		<!-- Building Category -->
+		<Text>
+			<GUID>1404420044</GUID>
+			<Text>Jam</Text>
+		</Text>
+		<Text>
+			<GUID>2000010016</GUID>
+			<Text>Producing jam is not as simple as some might think...</Text>
+		</Text>
+	</ModOp>
+	<!-- Building Categories -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404419500</GUID>
+			<Text>Orchards</Text>
+		</Text>
+		<Text>
+			<GUID>1404419501</GUID>
+			<Text>Orchards</Text>
+		</Text>
+		<Text>
+			<GUID>1404419502</GUID>
+			<Text>A variety of orchards.</Text>
+		</Text>
+		<!-- South America -->
+		<Text>
+			<GUID>1404419504</GUID>
+			<Text>Orchards (New World)</Text>
+		</Text>
+		<Text>
+			<GUID>1404419505</GUID>
+			<Text>Orchards (New World)</Text>
+		</Text>
+		<Text>
+			<GUID>1404419506</GUID>
+			<Text>A variety of orchards.</Text>
+		</Text>
+	</ModOp>
+	<!-- Apple Pie Recipe -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404419000</GUID>
+			<Text>Apple Pie</Text>
+		</Text>
+		<Text>
+			<GUID>1404419001</GUID>
+			<Text>This apple pie is a simple yet delicious desert. Tourists love the taste of these warm apples.</Text>
+		</Text>
+	</ModOp>
+	<!-- Apple Pie Effect (strong) -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404419006</GUID>
+			<Text>Delicious Apple Pie</Text>
+		</Text>
+	</ModOp>
+	<!-- Apple Pie Effect -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404419007</GUID>
+			<Text>Delicious Apple Pie</Text>
+		</Text>
+	</ModOp>
+	<!-- Cafe Apple Pie -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404419005</GUID>
+			<Text>Cafe: Apple Pie</Text>
+		</Text>
+	</ModOp>
+<!-- Specialists -->
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404420050</GUID>
+			<Text>John the Treehugger</Text>
+		</Text>
+		<Text>
+			<GUID>1404420051</GUID>
+			<Text>He loves trees. And they seem to love him too.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420052</GUID>
+			<Text>Marlene, Mother of Marmelade</Text>
+		</Text>
+		<Text>
+			<GUID>1404420053</GUID>
+			<Text>She's world famous for her very own marmelade creations.</Text>
+		</Text>
+		<Text>
+			<GUID>1404420054</GUID>
+			<Text>Clara the Cherry Picker</Text>
+		</Text>
+		<Text>
+			<GUID>1404420055</GUID>
+			<Text>We should employ her at the orchards, right?</Text>
+		</Text>
+	</ModOp>
+</ModOps>

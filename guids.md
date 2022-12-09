@@ -2,9 +2,38 @@
 | GUID | Name | In-Game Name | Template | Mod | Operation |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 |117.268 | arctic canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
+|133.004 | TreePlanter_Colony01_Coconut_Butter |  | FarmBuilding | [Gameplay] Orchard Rework | replace |
+|133.030 | TreePlanter_Colony01_Camphora_Cinnamon |  | FarmBuilding | [Gameplay] Orchard Rework | replace |
+|133.031 | TreePlanter_Colony01_Citrus |  | FarmBuilding | [Gameplay] Orchard Rework | replace |
+|133.496 | TreePlanter_Moderate_Cherries | Orchard: Cherries | FarmBuilding | [Gameplay] Orchard Rework | replace |
+|134.614 | TreePlanter_Colony01_Camphora_Camphor |  | FarmBuilding | [Gameplay] Orchard Rework | replace |
+|135.085 | TreePlanter_Moderate_Resin |  | FarmBuilding | [Gameplay] Orchard Rework | replace |
+|135.088 | TreePlanter_Moderate_CherryWood |  | FarmBuilding | [Gameplay] Orchard Rework | replace |
 |500.008 | canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
 |500.911 | colony01 burrito chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
-|1.404.420.055 | production chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | addNextSibling |
+|1.404.419.000 | Recipe Apple Pie | Apple Pie | Recipe | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.419.003 | MOD Trigger |  | Trigger | [Gameplay] Orchard Rework | addnextSibling |
+|1.404.419.005 | Cafe_001_ApplePie | Cafe: Apple Pie | Restaurant | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.419.006 | Buff_ApplePie | Delicious Apple Pie | TownhallBuff | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.419.007 | Buff_ApplePie | Delicious Apple Pie | TownhallBuff | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.419.500 | Orchards OW | Orchards | ConstructionCategory | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.000 | Citrus Field | Citrus Field | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.001 | Coconut Field | Coconut Field | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.002 | Cinnamon Field | Cinnamon Field | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.003 | Camphor Field | Camphor Field | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.004 | Cherry Field | Cherry Field | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.005 | Apple Field | Apple Field | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.006 | Pine Field | Fir Plantation | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.007 | Cherry Wood Field | Cherry Wood Plantation | Farmfield | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.030 | Cherries | Cherries | Product | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.032 | Apples | Apples | Product | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.042 | jam_manufactury | Jam Manufactury | FactoryBuilding7 | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.044 | production chain | Jam | ProductionChain | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.046 | apple_orchard | Apple Orchard | FarmBuilding | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.050 | John the Treehugger | John the Treehugger | GuildhouseItem | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.052 | Marlene, Mother of Marmelade | Marlene, Mother of Marmelade | GuildhouseItem | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.054 | Clara the Cherry Picker | Clara the Cherry Picker | GuildhouseItem | [Gameplay] Orchard Rework | addNextSibling |
+|1.404.420.055 | production chain | We should employ her at the orchards, right? | ProductionChain | [Gameplay] Cattle needs to be butchered | addNextSibling |
 |1.404.422.001 | MOD_SA_Docklands_Trigger |  | Trigger | [Gameplay] New World Docklands | addnextSibling |
 |1.404.422.004 | MOD_Enbesa_Docklands_Trigger |  | Trigger | [Gameplay] New World Docklands | addnextSibling |
 |1.404.422.060 | Dockland_Module_Pier | Pier | DocklandPierModule | [Gameplay] New World Docklands | addNextSibling |
@@ -72,3 +101,6 @@
 |1.404.423.066 | advanced agriculture_08_field (Cattle Sty) | Advanced Cattle Sty | Farmfield | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.424.000 | Large Ornamental Quay | Ornamental Loading Pier | HarborOrnament | [Gameplay] Diagonal Harbor | addNextSibling |
 |1.404.424.005 | MOD Trigger Ornamental Loading Pier |  | Trigger | [Gameplay] Diagonal Harbor | addnextSibling |
+|1.404.429.994 | MOD Trigger |  | Trigger | [Gameplay] Orchard Rework | addnextSibling |
+|1.404.429.996 | MOD Trigger |  | Trigger | [Gameplay] Orchard Rework | addnextSibling |
+|1.404.430.001 | MOD Specialist Trigger |  | Trigger | [Gameplay] Orchard Rework | addnextSibling |
