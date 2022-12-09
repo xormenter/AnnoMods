@@ -1,15 +1,6 @@
 # GUID Overview:
 | GUID | Name | In-Game Name | Template | Mod | Operation |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-|117.268 | arctic canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
-|500.008 | canned food chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
-|500.911 | colony01 burrito chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | replace |
-|1.404.420.055 | production chain |  | ProductionChain | [Gameplay] Cattle needs to be butchered | addNextSibling |
-|1.404.422.300 | Cattle | Cattle | Product | [Gameplay] Cattle needs to be butchered | addNextSibling |
-|1.404.422.305 | mod_butcher | Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
-|1.404.422.306 | mod_SA_butcher | Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
-|1.404.422.307 | MOD Trigger |  | Trigger | [Gameplay] Cattle needs to be butchered | addnextSibling |
-|1.404.422.310 | advanced meat butcher | Large Butchery | FactoryBuilding7 | [Gameplay] Cattle needs to be butchered | addNextSibling |
 |1.404.423.000 | MOD Large Fishery | Large Fishery | None | [Gameplay] Large Fishery | addNextSibling |
 |1.404.423.002 | MOD Trigger Large Fishery |  | Trigger | [Gameplay] Large Fishery | addnextSibling |
 |1.404.423.003 | Large Fishing Ship |  | TrafficFeedbackUnit | [Gameplay] Large Fishery | addNextSibling |
@@ -30,17 +21,17 @@
 |1.404.423.031 | mod advancedbasic sail chain | Advanced Sail Production | ProductionChain | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.035 | advanced food_07 (Sausage Maker) | Sausage Factory | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.036 | mod advancedbasic sausage chain | Advanced Sausage Production | ProductionChain | [Gameplay] Industrialized Low Tier Production | addNextSibling |
-|1.404.423.040 | advanced Steel Heavy Industry) | Large Steel Furnace | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
+|1.404.423.040 | advanced Steel Heavy Industry) | Large Steel Furnace | HeavyFactoryBuilding | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.041 | mod advanced beams chain | Advanced Steel Production | ProductionChain | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.042 | MOD Trigger Adv. Steelworks |  | Trigger | [Gameplay] Industrialized Low Tier Production | addnextSibling |
 |1.404.423.043 | MOD Advanced Production Category | Advanced Production | ConstructionCategory | [Gameplay] Industrialized Low Tier Production | addNextSibling |
-|1.404.423.045 | advanced Beams Heavy Industry) | Large Steelworks | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
+|1.404.423.045 | advanced Beams Heavy Industry) | Large Steelworks | HeavyFactoryBuilding | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.050 | factory_02 advanced (Soap Factory) | Large Soap Factory | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.051 | processing_01 advanced (Tallow Processing) | Large Rendering Works | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.052 | advanced soap chain | Advanced Soap Production | ProductionChain | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.053 | MOD Trigger Adv. Soap |  | Trigger | [Gameplay] Industrialized Low Tier Production | addnextSibling |
 |1.404.423.054 | SiloBuff feeding the animals | Feeding the Animals | GuildhouseBuff | [Gameplay] Industrialized Low Tier Production | addNextSibling |
-|1.404.423.055 | advanced agriculture_08 (Pig Farm) | Pig Factory Farm | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
+|1.404.423.055 | advanced agriculture_08 (Pig Farm) | Pig Factory Farm | FarmBuilding | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.056 | advanced agriculture_08_field (Pig Sty) | Advanced Pig Sty | Farmfield | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.057 | MOD Trigger Adv. Pigs |  | Trigger | [Gameplay] Industrialized Low Tier Production | addnextSibling |
 |1.404.423.058 | Silo (for Pigs) | Silo (Pig Food) | BuffFactoryModule | [Gameplay] Industrialized Low Tier Production | addNextSibling |
@@ -50,10 +41,7 @@
 |1.404.423.062 | FertilizerBuff producing Milk | Producing Milk | GuildhouseBuff | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.063 | MOD Trigger Adv. Cattle |  | Trigger | [Gameplay] Industrialized Low Tier Production | addnextSibling |
 |1.404.423.064 | Silo (for Cattle) | Silo (Cattle Food) | BuffFactoryModule | [Gameplay] Industrialized Low Tier Production | addNextSibling |
-|1.404.423.065 | advanced agriculture_08 (Cattle Farm) | Cattle Factory Farm | FactoryBuilding7 | [Gameplay] Industrialized Low Tier Production | addNextSibling |
+|1.404.423.065 | advanced agriculture_08 (Cattle Farm) | Cattle Factory Farm | FarmBuilding | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.423.066 | advanced agriculture_08_field (Cattle Sty) | Advanced Cattle Sty | Farmfield | [Gameplay] Industrialized Low Tier Production | addNextSibling |
 |1.404.424.000 | Large Ornamental Quay | Ornamental Loading Pier | HarborOrnament | [Gameplay] Diagonal Harbor | addNextSibling |
 |1.404.424.005 | MOD Trigger Ornamental Loading Pier |  | Trigger | [Gameplay] Diagonal Harbor | addnextSibling |
-|1.404.424.050 | fuel generator ow | Fuel Generator | PowerplantBuilding | [Gameplay] Fuel Generator | addNextSibling |
-|1.404.424.051 | fuel generator nw | Fuel Generator | FactoryBuilding7 | [Gameplay] Fuel Generator | addNextSibling |
-|1.404.424.056 | MOD Trigger Fuel Generators |  | Trigger | [Gameplay] Fuel Generator | addnextSibling |

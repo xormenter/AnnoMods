@@ -68,9 +68,13 @@
       </Item>
     </FactoryOutputs>
   </ModOp>
-  <ModOp Type="replace" GUID="1010263" Path="/Values/Standard/IconFilename/">
+
+
+  <ModOp Type="replace" GUID="1010263,101269" Path="/Values/Standard/IconFilename/">
     <IconFilename>data/modgraphics/icons/icon_cattle.png</IconFilename>
   </ModOp>
+
+  
   <!-- NW cattle farm-->
   <ModOp Type="replace" GUID="101269" Path="/Values/FactoryBase/FactoryOutputs/">
     <FactoryOutputs>
@@ -95,6 +99,7 @@
           <InfoDescription>1404422352</InfoDescription>
         </Standard>
         <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
@@ -183,7 +188,10 @@
           <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
         <LogisticNode/>
-        <AmbientMoodProvider/>
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+      </AmbientMoodProvider>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -199,10 +207,44 @@
               <InactiveAmount>25</InactiveAmount>
             </Item>
           </Maintenances>
-        </Maintenance>
+        </Maintenance><Attackable>
+        <AttackableType>IslandBuilding</AttackableType>
+        <MaximumHitPoints>1750</MaximumHitPoints>
+        <SelfHealPerHealTick>4</SelfHealPerHealTick>
+    </Attackable>
+        <Pausable/>
+        <IncidentInfectable>
+            <Infectable>
+                <Explosion>
+                    <Base>0</Base>
+                    <Escalated>0</Escalated>
+                </Explosion>
+            </Infectable>
+            <Explosion>
+                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+                <Fire>
+                    <DensityDistance>20</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+                <Riot>
+                    <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                    <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                    <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                    <HappinessThreshold>20</HappinessThreshold>
+                </Riot>
+            </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
         <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        <Culture>
+            <Attractiveness>-5</Attractiveness>
+            <CultureType>Military</CultureType>
+        </Culture>
+        <QuestObject/>
+        <Electrifiable/>
+        <EcoSystemProvider/>
       </Values>
     </Asset>
   </ModOp>
@@ -220,6 +262,7 @@
         <Building>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
         <Blocking/>
         <Cost>
@@ -306,7 +349,10 @@
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode/>
-        <AmbientMoodProvider/>
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+      </AmbientMoodProvider>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -322,10 +368,44 @@
               <InactiveAmount>25</InactiveAmount>
             </Item>
           </Maintenances>
-        </Maintenance>
-        <Industrializable/>
-        <StreetActivation/>
-        <LogisticNode/>
+        </Maintenance><Attackable>
+        <AttackableType>IslandBuilding</AttackableType>
+        <MaximumHitPoints>1750</MaximumHitPoints>
+        <SelfHealPerHealTick>4</SelfHealPerHealTick>
+    </Attackable>
+    <Pausable/>
+    <IncidentInfectable>
+        <Infectable>
+            <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+            </Explosion>
+        </Infectable>
+        <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+            <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+        </IncidentInfectionChanceFactors>
+    </IncidentInfectable>
+    <Industrializable/>
+    <Culture>
+        <Attractiveness>-5</Attractiveness>
+        <CultureType>Military</CultureType>
+    </Culture>
+    <QuestObject/>
+    <Electrifiable/>
+    <EcoSystemProvider/>
       </Values>
     </Asset>
   </ModOp>

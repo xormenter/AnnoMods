@@ -1906,7 +1906,7 @@
 	<!-- steel and steel beams -->
 	<ModOp GUID="1010297" Type="addNextSibling" Path="/">
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>HeavyFactoryBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404423040</GUID>
@@ -1922,27 +1922,28 @@
 				<Blocking/>
 				<Cost>
 					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>1000</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>8</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-						</Item>
+					<Item>
+						<Ingredient>1010017</Ingredient>
+						<Amount>1500</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010196</Ingredient>
+						<Amount>8</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010205</Ingredient>
+						<Amount>10</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010218</Ingredient>
+						<Amount>5</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010207</Ingredient>
+					</Item>
+					<Item>
+						<Ingredient>1010202</Ingredient>
+					</Item>
 					</Costs>
 				</Cost>
 				<Object>
@@ -1955,22 +1956,22 @@
 				<Mesh/>
 				<Selection>
 					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList/>
-						</Values>
+					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+					<Values>
+						<ActionList/>
+					</Values>
 					</OnSelection>
 					<ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
 					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					<WeakSelectionColorType>NoColor</WeakSelectionColorType>
 					</Colors>
 				</Selection>
 				<Text>
 					<LocaText>
-						<English>
-							<Text>Furnace</Text>
-							<Status>Exported</Status>
-						</English>
+					<English>
+						<Text>Furnace</Text>
+						<Status>Exported</Status>
+					</English>
 					</LocaText>
 					<LineID>5265</LineID>
 				</Text>
@@ -1978,44 +1979,44 @@
 				<Locked/>
 				<SoundEmitter>
 					<ActiveSounds>
-						<Item>
-							<Sound>214813</Sound>
-						</Item>
-						<Item>
-							<Sound>202247</Sound>
-						</Item>
+					<Item>
+						<Sound>214813</Sound>
+					</Item>
+					<Item>
+						<Sound>202247</Sound>
+					</Item>
 					</ActiveSounds>
 					<ConstructionSounds>
-						<BuildSuccessful>
-							<Item>
-								<VectorElement>
-									<InheritedIndex>0</InheritedIndex>
-									<InheritanceMapV2>
-										<Entry>
-											<TemplateName>FarmBuilding</TemplateName>
-											<Index>0</Index>
-										</Entry>
-										<Entry>
-											<TemplateName>HeavyFactoryBuilding</TemplateName>
-											<Index>0</Index>
-										</Entry>
-									</InheritanceMapV2>
-								</VectorElement>
-								<Sound>203830</Sound>
-							</Item>
-						</BuildSuccessful>
+					<BuildSuccessful>
+						<Item>
+						<VectorElement>
+							<InheritedIndex>0</InheritedIndex>
+							<InheritanceMapV2>
+							<Entry>
+								<TemplateName>FarmBuilding</TemplateName>
+								<Index>0</Index>
+							</Entry>
+							<Entry>
+								<TemplateName>HeavyFactoryBuilding</TemplateName>
+								<Index>0</Index>
+							</Entry>
+							</InheritanceMapV2>
+						</VectorElement>
+						<Sound>203830</Sound>
+						</Item>
+					</BuildSuccessful>
 					</ConstructionSounds>
 					<IncidentSounds>
-						<InfectedFire>
-							<Item>
-								<Sound>214659</Sound>
-							</Item>
-						</InfectedFire>
+					<InfectedFire>
+						<Item>
+						<Sound>214659</Sound>
+						</Item>
+					</InfectedFire>
 					</IncidentSounds>
 					<BuildingRepaired>
-						<Item>
-							<Sound>203866</Sound>
-						</Item>
+					<Item>
+						<Sound>203866</Sound>
+					</Item>
 					</BuildingRepaired>
 					<MaterialType>Metal</MaterialType>
 				</SoundEmitter>
@@ -2027,23 +2028,23 @@
 				<Factory7/>
 				<FactoryBase>
 					<FactoryInputs>
-						<Item>
-							<Product>1010227</Product>
-							<Amount>1</Amount>
-							<StorageAmount>16</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1010226</Product>
-							<Amount>1</Amount>
-							<StorageAmount>12</StorageAmount>
-						</Item>
+					<Item>
+						<Product>1010227</Product>
+						<Amount>1</Amount>
+						<StorageAmount>16</StorageAmount>
+					</Item>
+					<Item>
+						<Product>1010226</Product>
+						<Amount>1</Amount>
+						<StorageAmount>12</StorageAmount>
+					</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
-						<Item>
-							<Product>1010219</Product>
-							<Amount>1</Amount>
-							<StorageAmount>8</StorageAmount>
-						</Item>
+					<Item>
+						<Product>1010219</Product>
+						<Amount>1</Amount>
+						<StorageAmount>8</StorageAmount>
+					</Item>
 					</FactoryOutputs>
 					<CycleTime>15</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
@@ -2055,15 +2056,15 @@
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>
-						<Item>
-							<Product>1010017</Product>
-							<Amount>200</Amount>
-							<InactiveAmount>100</InactiveAmount>
-						</Item>
-						<Item>
-							<Product>1010115</Product>
-							<Amount>200</Amount>
-						</Item>
+					<Item>
+						<Product>1010017</Product>
+						<Amount>175</Amount>
+						<InactiveAmount>88</InactiveAmount>
+					</Item>
+					<Item>
+						<Product>1010115</Product>
+						<Amount>150</Amount>
+					</Item>
 					</Maintenances>
 				</Maintenance>
 				<Attackable>
@@ -2074,31 +2075,31 @@
 				<Pausable/>
 				<IncidentInfectable>
 					<Infectable>
-						<Illness>
-							<Escalated>0</Escalated>
-						</Illness>
+					<Illness>
+						<Escalated>0</Escalated>
+					</Illness>
 					</Infectable>
 					<Explosion>
-						<ExplosionCoreDamage>2000</ExplosionCoreDamage>
+					<ExplosionCoreDamage>2000</ExplosionCoreDamage>
 					</Explosion>
 					<IncidentInfectionChanceFactors>
-						<Fire>
-							<DensityDistance>20</DensityDistance>
-							<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-							<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-						</Fire>
-						<Riot>
-							<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-							<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-							<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-							<HappinessThreshold>20</HappinessThreshold>
-						</Riot>
-						<Explosion>
-							<BaseChance>4</BaseChance>
-							<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-							<FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
-							<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-						</Explosion>
+					<Fire>
+						<DensityDistance>20</DensityDistance>
+						<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+						<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+					</Fire>
+					<Riot>
+						<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+						<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+						<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+						<HappinessThreshold>20</HappinessThreshold>
+					</Riot>
+					<Explosion>
+						<BaseChance>4</BaseChance>
+						<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+						<FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+						<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+					</Explosion>
 					</IncidentInfectionChanceFactors>
 				</IncidentInfectable>
 				<Culture>
@@ -2106,9 +2107,9 @@
 				</Culture>
 				<IncidentInfluencer>
 					<Influence>
-						<Illness>
-							<Distance>10</Distance>
-						</Illness>
+					<Illness>
+						<Distance>10</Distance>
+					</Illness>
 					</Influence>
 				</IncidentInfluencer>
 				<Industrializable/>
@@ -2120,7 +2121,7 @@
 	</ModOp>
 	<ModOp GUID="1010296" Type="addNextSibling" Path="/">
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>HeavyFactoryBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404423045</GUID>
@@ -2131,32 +2132,32 @@
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AssociatedRegions>Moderate</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<!-- tell AI to ignore this building -->
 				</Building>
 				<Blocking/>
 				<Cost>
 					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2000</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>16</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>20</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-						</Item>
+					<Item>
+						<Ingredient>1010017</Ingredient>
+						<Amount>2500</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010196</Ingredient>
+						<Amount>16</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010205</Ingredient>
+						<Amount>20</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010218</Ingredient>
+						<Amount>5</Amount>
+					</Item>
+					<Item>
+						<Ingredient>1010207</Ingredient>
+					</Item>
+					<Item>
+						<Ingredient>1010202</Ingredient>
+					</Item>
 					</Costs>
 				</Cost>
 				<Object>
@@ -2169,22 +2170,22 @@
 				<Mesh/>
 				<Selection>
 					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList/>
-						</Values>
+					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+					<Values>
+						<ActionList/>
+					</Values>
 					</OnSelection>
 					<ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
 					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					<WeakSelectionColorType>NoColor</WeakSelectionColorType>
 					</Colors>
 				</Selection>
 				<Text>
 					<LocaText>
-						<English>
-							<Text>Steelworks</Text>
-							<Status>Exported</Status>
-						</English>
+					<English>
+						<Text>Steelworks</Text>
+						<Status>Exported</Status>
+					</English>
 					</LocaText>
 					<LineID>5264</LineID>
 				</Text>
@@ -2192,37 +2193,37 @@
 				<Locked/>
 				<SoundEmitter>
 					<ActiveSounds>
-						<Item>
-							<Sound>214813</Sound>
-						</Item>
-						<Item>
-							<Sound>202429</Sound>
-						</Item>
+					<Item>
+						<Sound>214813</Sound>
+					</Item>
+					<Item>
+						<Sound>202429</Sound>
+					</Item>
 					</ActiveSounds>
 					<ConstructionSounds>
-						<BuildSuccessful>
-							<Item>
-								<VectorElement>
-									<InheritedIndex>0</InheritedIndex>
-									<InheritanceMapV2>
-										<Entry>
-											<TemplateName>FarmBuilding</TemplateName>
-											<Index>0</Index>
-										</Entry>
-										<Entry>
-											<TemplateName>HeavyFactoryBuilding</TemplateName>
-											<Index>0</Index>
-										</Entry>
-									</InheritanceMapV2>
-								</VectorElement>
-								<Sound>203830</Sound>
-							</Item>
-						</BuildSuccessful>
+					<BuildSuccessful>
+						<Item>
+						<VectorElement>
+							<InheritedIndex>0</InheritedIndex>
+							<InheritanceMapV2>
+							<Entry>
+								<TemplateName>FarmBuilding</TemplateName>
+								<Index>0</Index>
+							</Entry>
+							<Entry>
+								<TemplateName>HeavyFactoryBuilding</TemplateName>
+								<Index>0</Index>
+							</Entry>
+							</InheritanceMapV2>
+						</VectorElement>
+						<Sound>203830</Sound>
+						</Item>
+					</BuildSuccessful>
 					</ConstructionSounds>
 					<BuildingRepaired>
-						<Item>
-							<Sound>203866</Sound>
-						</Item>
+					<Item>
+						<Sound>203866</Sound>
+					</Item>
 					</BuildingRepaired>
 					<MaterialType>Metal</MaterialType>
 				</SoundEmitter>
@@ -2232,20 +2233,20 @@
 				<Factory7/>
 				<FactoryBase>
 					<FactoryInputs>
-						<Item>
-							<Product>1010219</Product>
-							<Amount>1</Amount>
-							<StorageAmount>6</StorageAmount>
-						</Item>
+					<Item>
+						<Product>1010219</Product>
+						<Amount>1</Amount>
+						<StorageAmount>8</StorageAmount>
+					</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
-						<Item>
-							<Product>1010218</Product>
-							<Amount>1</Amount>
-							<StorageAmount>3</StorageAmount>
-						</Item>
+					<Item>
+						<Product>1010218</Product>
+						<Amount>1</Amount>
+						<StorageAmount>4</StorageAmount>
+					</Item>
 					</FactoryOutputs>
-					<CycleTime>30</CycleTime>
+					<CycleTime>20</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
@@ -2255,15 +2256,15 @@
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>
-						<Item>
-							<Product>1010017</Product>
-							<Amount>300</Amount>
-							<InactiveAmount>150</InactiveAmount>
-						</Item>
-						<Item>
-							<Product>1010115</Product>
-							<Amount>300</Amount>
-						</Item>
+					<Item>
+						<Product>1010017</Product>
+						<Amount>400</Amount>
+						<InactiveAmount>100</InactiveAmount>
+					</Item>
+					<Item>
+						<Product>1010115</Product>
+						<Amount>400</Amount>
+					</Item>
 					</Maintenances>
 				</Maintenance>
 				<Attackable>
@@ -2274,42 +2275,42 @@
 				<Pausable/>
 				<IncidentInfectable>
 					<Infectable>
-						<Illness>
-							<Escalated>0</Escalated>
-						</Illness>
+					<Illness>
+						<Escalated>0</Escalated>
+					</Illness>
 					</Infectable>
 					<Explosion>
-						<ExplosionCoreDamage>2000</ExplosionCoreDamage>
+					<ExplosionCoreDamage>2000</ExplosionCoreDamage>
 					</Explosion>
 					<IncidentInfectionChanceFactors>
-						<Fire>
-							<DensityDistance>20</DensityDistance>
-							<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-							<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-						</Fire>
-						<Riot>
-							<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-							<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-							<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-							<HappinessThreshold>20</HappinessThreshold>
-						</Riot>
-						<Explosion>
-							<BaseChance>4</BaseChance>
-							<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-							<FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
-							<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-						</Explosion>
+					<Fire>
+						<DensityDistance>20</DensityDistance>
+						<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+						<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+					</Fire>
+					<Riot>
+						<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+						<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+						<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+						<HappinessThreshold>20</HappinessThreshold>
+					</Riot>
+					<Explosion>
+						<BaseChance>4</BaseChance>
+						<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+						<FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+						<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+					</Explosion>
 					</IncidentInfectionChanceFactors>
 				</IncidentInfectable>
 				<Culture>
-					<Attractiveness>-10</Attractiveness>
+					<Attractiveness>-20</Attractiveness>
 					<HasPollution>1</HasPollution>
 				</Culture>
 				<IncidentInfluencer>
 					<Influence>
-						<Illness>
-							<Distance>10</Distance>
-						</Illness>
+					<Illness>
+						<Distance>10</Distance>
+					</Illness>
 					</Influence>
 				</IncidentInfluencer>
 				<Industrializable/>
@@ -2918,7 +2919,7 @@
 	<!-- Pig farm -->
 	<ModOp GUID="1010312" Type="addNextSibling" Path="/">
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>FarmBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404423055</GUID>
@@ -3054,6 +3055,7 @@
 					</ConstructionOptions>
 					<!-- <AdditionalModule>269957</AdditionalModule> -->
 					<AdditionalModule>1404423058</AdditionalModule>
+					<AddModuleLimit>0</AddModuleLimit>
 					<!-- <FertilizerModuleData>
 						<Module>1404423061</Module>
 					</FertilizerModuleData> -->
@@ -3133,7 +3135,7 @@
 	<!-- Cattle Farm -->
 	<ModOp GUID="1010312" Type="addNextSibling" Path="/">
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>FarmBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404423065</GUID>
@@ -3271,6 +3273,7 @@
 					</ConstructionOptions>
 					<!-- <AdditionalModule>269957</AdditionalModule> -->
 					<AdditionalModule>1404423064</AdditionalModule>
+					<AddModuleLimit>0</AddModuleLimit>
 					<FertilizerModuleData>
 						<Module>1404423061</Module>
 					</FertilizerModuleData>
@@ -4003,7 +4006,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<!-- Diary Production Module -->
+	<!-- Dairy Production Module -->
 	<ModOp GUID="269957" Type="addNextSibling" Path="/">
 		<Asset>
 			<Template>BuffFactoryModule</Template>
@@ -4049,8 +4052,8 @@
 			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
-					<Product>1440005</Product>
-					<!-- Shared Goods Collection: Milk -->
+					<Product>5385</Product>
+					<!-- NWR Milk -->
 					<Amount>1</Amount>
 					<StorageAmount>5</StorageAmount>
 				</Item>
