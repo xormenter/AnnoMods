@@ -16,6 +16,9 @@ jobs:
     steps:     
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v3
+    - name: Remove .xml files in modgraphics
+      run: |
+              find . -type f -name "*.xml" -not -path "./*/data/config/*" -delete
     - name: Zip Folder
       run: | # Zip the entire repository
               zip -r lordysmods-${{ github.ref_name }}.zip .  -x ".git/*" ".github/*" ".gitignore"
