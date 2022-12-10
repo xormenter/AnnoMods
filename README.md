@@ -4,7 +4,7 @@ For screenshots, I refer to their respective Nexus pages. https://www.nexusmods.
 
 # How to use
 - Get the mod loader https://github.com/xforce/anno1800-mod-loader 
-- Download the repository and place the mod folders into your anno mods folder (alternatively: use your mod manager)
+- [Download the repository](https://github.com/xormenter/AnnoMods/releases) and place the mod folders into your anno mods folder (alternatively: use your mod manager)
 
 ## Industrialized Low Tier Production
 
