@@ -543,7 +543,6 @@
 				<AmbientMoodProvider />
 				<UpgradeList />
 				<Attackable />
-				<IncidentInfectable />
 				<Pausable />
 				<Culture />
 				<Maintenance />
@@ -1478,11 +1477,9 @@
 				<SoundEmitter />
 				<Infolayer />
 				<FeedbackController />
-				<LogisticNode />
 				<AmbientMoodProvider />
 				<UpgradeList />
 				<Attackable />
-				<IncidentInfectable />
 				<Pausable />
 				<Culture />
 				<Maintenance />
@@ -1988,11 +1985,9 @@
 				<SoundEmitter />
 				<Infolayer />
 				<FeedbackController />
-				<LogisticNode />
 				<AmbientMoodProvider />
 				<UpgradeList />
 				<Attackable />
-				<IncidentInfectable />
 				<Pausable />
 				<Culture />
 				<Maintenance />
@@ -2523,11 +2518,9 @@
 				<SoundEmitter />
 				<Infolayer />
 				<FeedbackController />
-				<LogisticNode />
 				<AmbientMoodProvider />
 				<UpgradeList />
 				<Attackable />
-				<IncidentInfectable />
 				<Pausable />
 				<Culture />
 				<Maintenance />
@@ -3052,7 +3045,6 @@
 					<AmbientMoodProvider />
 					<UpgradeList />
 					<Attackable />
-					<IncidentInfectable />
 					<Pausable />
 					<Culture />
 					<Maintenance />
@@ -3585,7 +3577,6 @@
 				<AmbientMoodProvider />
 				<UpgradeList />
 				<Attackable />
-				<IncidentInfectable />
 				<Warehouse />
 				<StorageBase/>
 				<Pausable />
