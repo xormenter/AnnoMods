@@ -176,7 +176,7 @@
 	</ModOp>
 	<!-- Item Effect -->
 	<!-- General categories -->
-	<ModOp Type="add" GUID="193879,190611,190897,6000018,193875,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+	<ModOp Type="add" GUID="368,190897,6000018,193875,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
 			<GUID>1404423005</GUID>
 		</Item>
@@ -365,7 +365,7 @@
 	</ModOp>
 	<!-- Item Effect -->
 	<!-- General categories -->
-	<ModOp Type="add" GUID="193879,190611,6000018,193875,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+	<ModOp Type="add" GUID="368,6000018,193875,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
 			<GUID>1404423010</GUID>
 		</Item>
@@ -458,7 +458,7 @@
 			<Building>1404423052</Building>
 		</Item>
 	</ModOp>
-	<ModOp Type="addnextSibling" GUID="130248">
+	<ModOp Type="addNextSibling" GUID="130248">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -619,6 +619,24 @@
 		<Item>
 			<Factory>1404423035</Factory>
 		</Item>
+		<Item>
+			<Factory>1404423040</Factory>
+		</Item>
+		<Item>
+			<Factory>1404423045</Factory>
+		</Item>
+		<Item>
+			<Factory>1404423050</Factory>
+		</Item>
+		<Item>
+			<Factory>1404423051</Factory>
+		</Item>
+		<Item>
+			<Factory>1404423055</Factory>
+		</Item>
+		<Item>
+			<Factory>1404423065</Factory>
+		</Item>		
 	</ModOp>
 	<!-- Framework Knitter II -->
 	<ModOp GUID="1010315" Type="addNextSibling">
@@ -830,7 +848,7 @@
 	</ModOp>
 	<!-- Item Effect -->
 	<!-- General categories -->
-	<ModOp Type="add" GUID="193879,190611,6000018,193875,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+	<ModOp Type="add" GUID="368,6000018,193875,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
 			<GUID>1404423015</GUID>
 		</Item>
@@ -1052,7 +1070,7 @@
 	</ModOp>
 	<!-- Item Effect -->
 	<!-- General categories -->
-	<ModOp Type="add" GUID="193879,190611,6000018,193875,193856,193778" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+	<ModOp Type="add" GUID="368,6000018,193875,193856,193778" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
 			<GUID>1404423020</GUID>
 		</Item>
@@ -4266,7 +4284,7 @@
 		</Asset>
 	</ModOp>
   <!-- Triggers -->
-	<ModOp Type="addnextSibling" GUID="130248">
+	<ModOp Type="addNextSibling" GUID="130248">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -4319,7 +4337,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp Type="addnextSibling" GUID="130248">
+	<ModOp Type="addNextSibling" GUID="130248">
 			<Asset>
 				<Template>Trigger</Template>
 				<Values>
@@ -4366,7 +4384,7 @@
 				</Values>
 			</Asset>
 		</ModOp>
-	<ModOp Type="addnextSibling" GUID="130248">
+	<ModOp Type="addNextSibling" GUID="130248">
 			<Asset>
 				<Template>Trigger</Template>
 				<Values>
@@ -4508,4 +4526,3 @@
 		</Asset>
 	</ModOp>
 </ModOps>
-
