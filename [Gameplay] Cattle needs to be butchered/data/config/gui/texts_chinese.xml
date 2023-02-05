@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404422300</GUID>
+			<Text>养牛场</Text>
+		</Text>
+		<Text>
+			<GUID>1404422301</GUID>
+			<Text>哞.</Text>
+		</Text>
+		<Text>
+			<GUID>1404422305</GUID>
+			<Text>屠宰场</Text>
+		</Text>
+		<Text>
+			<GUID>1404422306</GUID>
+			<Text>屠宰场</Text>
+		</Text>
+		<Text>
+			<GUID>1404422352</GUID>
+			<Text>生产牛肉.</Text>
+		</Text>
+		<Text>
+			<GUID>1404422310</GUID>
+			<Text>大型屠宰场</Text>
+		</Text>
+	</ModOp>
+</ModOps>
