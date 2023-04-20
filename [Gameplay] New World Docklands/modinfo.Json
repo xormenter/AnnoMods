@@ -1,6 +1,6 @@
 {
   "Version": "1.2",
-  "ModID": "NewWorldDocklands"
+  "ModID": "NewWorldDocklands",
   "IncompatibleIds": [
   ],
   "ModDependencies": null,
@@ -8,7 +8,7 @@
     "Chinese": null,
     "English": "Gameplay",
     "French": null,
-    "German": "Gameplay"
+    "German": "Gameplay",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -44,7 +44,12 @@
     "Taiwanese": null
   },
   "KnownIssues": null,
-  "DLCDependencies": Docklands,
+  "DLCDependencies": [
+    {
+        "DLC": "Docklands",
+        "Dependant": "required"
+    }
+],
   "CreatorName": "Lrds/xormenter",
   "Image" : null
 }
