@@ -99,7 +99,7 @@
           <InfoDescription>1404422352</InfoDescription>
         </Standard>
         <Building>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
@@ -262,7 +262,7 @@
         <Building>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
         </Building>
         <Blocking/>
         <Cost>
@@ -713,7 +713,7 @@
           <IconFilename>data\modgraphics\icons\icon_advanced_butcher.png</IconFilename>
         </Standard>
         <Building>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
 					<!-- tell AI to ignore this building -->
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
