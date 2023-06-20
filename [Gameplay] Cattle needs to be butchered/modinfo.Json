@@ -1,8 +1,16 @@
 {
-  "Version": "1.3",
+  "Version": "1.4",
   "ModID": "Cattle Needs to be butchered",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+    "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_extended_kurila.zip"
+  ],
+  "LoadAfterIds": [
+    "IndustrializedLowTierProduction"
+   ],
   "IncompatibleIds": null,
-  "ModDependencies": null,
   "Category": {
     "Chinese": null,
     "English": "Gameplay",
