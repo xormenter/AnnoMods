@@ -3,59 +3,59 @@
 		<!-- Products -->
 			<Text>
 				<GUID>1404420031</GUID>
-				<Text>W przeciwieństwie do dżemu rosną one na drzewach.</Text>
+				<Text>ジャムとは対照的に、木に生えているものです。</Text>
 			</Text>
 			<Text>
 				<GUID>1404420033</GUID>
-				<Text>Jedno jabłko dziennie trzyma pana Gasparowa z dala, prawda?</Text>
+				<Text>1日1個のリンゴはガスパロフさんを遠ざける、ですね。</Text>
 			</Text>
 		<!-- Orchards -->
 			<Text>
 				<GUID>1404420046</GUID>
-				<Text>Sad: Jabłka</Text>
+				<Text>果樹園: りんご</Text>
 			</Text>
 			<Text>
 				<GUID>133496</GUID>
-				<Text>Sad: Czereśnie</Text>
+				<Text>果樹園: チェリーズ</Text>
 			</Text>
 		<!-- Orchard Fields-->
 			<Text>
 				<GUID>1404420000</GUID>
-				<Text>Plantacja  cytrusowe</Text>
+				<Text>シトラスプランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420001</GUID>
-				<Text>Plantacja kokosowe</Text>
+				<Text>ココナッツ・プランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420002</GUID>
-				<Text>Plantacja cynamonowe</Text>
+				<Text>シナモン・プランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420003</GUID>
-				<Text>Plantacja kamforowe</Text>
+				<Text>樟脳プランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420004</GUID>
-				<Text>Wiśniowe Plantacja</Text>
+				<Text>シェリープランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420005</GUID>
-				<Text>Plantacja Jabłka</Text>
+				<Text>アップルプランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420006</GUID>
-				<Text>Plantacja drzew</Text>
+				<Text>ツリープランテーション</Text>
 			</Text>
 			<Text>
 				<GUID>1404420007</GUID>
-				<Text>Las wiśniowy</Text>
+				<Text>チェリーフォレスト</Text>
 			</Text>
 
 		<!-- Jam Manufactory -->
 			<Text>
 				<GUID>1404420042</GUID>
-				<Text>Produkcja dżemu</Text>
+				<Text>ジャム製造工場</Text>
 			</Text>
 		<!-- Extended InfoDesciption -->
 			<Text>
@@ -82,48 +82,48 @@
 		<!-- Apple Pie  -->
 			<Text>
 				<GUID>1404419000</GUID>
-				<Text>Szarlotka</Text>
+				<Text>アップルパイ</Text>
 			</Text>
 			<Text>
 				<GUID>1404419001</GUID>
-				<Text>Ta szarlotka to prosta, ale pyszna deser. Turyści uwielbiają smak tych ciepłych jabłek.</Text>
+				<Text>このアップルパイは、シンプルでおいしいデザートです。観光客は、この温かいリンゴの味を気に入っています。</Text>
 			</Text>
 			<Text>
 				<GUID>1404419006</GUID>
-				<Text>Pyszna szarlotka</Text>
+				<Text>[AssetData(1404419000) Text]</Text>
 			</Text>
 			<Text>
 				<GUID>1404419007</GUID>
-				<Text>Pyszna szarlotka</Text>
+				<Text>[AssetData(1404419000) Text]</Text>
 			</Text>
 			<Text>
 				<GUID>1404419005</GUID>
-				<Text>Kawiarnia: Szarlotka</Text>
+				<Text>[AssetData(132782) Text]: [AssetData(1404419000) Text]</Text>
 			</Text>
 		<!-- Specialists -->
 			<Text>
 				<GUID>1404420050</GUID>
-				<Text>John obrońca drzew</Text>
+				<Text>ジョン・ザ・ツリーハガー</Text>
 			</Text>
 			<Text>
 				<GUID>1404420051</GUID>
-				<Text>Kocha drzewa. I wydaje się, że też go kochają.</Text>
+				<Text>彼は木が大好きです。そして、木々もまた彼を愛しているようです。</Text>
 			</Text>
 			<Text>
 				<GUID>1404420052</GUID>
-				<Text>Marlena Matka Dżemu</Text>
+				<Text>マルメレードの母・マリーネ</Text>
 			</Text>
 			<Text>
 				<GUID>1404420053</GUID>
-				<Text>Jest znana na całym świecie ze swoich własnych kreacji marmolady.</Text>
+				<Text>彼女はまさにマルメレードのクリエーションで世界的に有名です。</Text>
 			</Text>
 			<Text>
 				<GUID>1404420054</GUID>
-				<Text>Klara zbieracz wiśni</Text>
+				<Text>チェリーピッカー・クララ</Text>
 			</Text>
 			<Text>
 				<GUID>1404420055</GUID>
-				<Text>Powinniśmy ją zatrudnić w sadach, prawda?</Text>
+				<Text>果樹園で雇ってあげればいいんでしょ？</Text>
 			</Text>
 	</ModOp>
 

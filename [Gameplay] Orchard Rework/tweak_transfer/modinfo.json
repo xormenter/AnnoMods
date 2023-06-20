@@ -1,0 +1,49 @@
+{
+  "out": "${annoMods}/[Gameplay] Orchard Rework/tweak_transfer_orchard_rework",
+  "Version": "1.0",
+  "ModID": "tweak_transfer_orchard_rework",
+  "LoadAfterIds": [
+    "OrchardRework"
+   ],
+  "Category": {
+    "English": "",
+    "Chinese": "",
+    "French": "",
+    "German": "",
+    "Italian": "",
+    "Japanese": "",
+    "Korean": "",
+    "Polish": "",
+    "Russian": "",
+    "Spanish": "",
+    "Taiwanese": ""
+  },
+  "ModName": {
+    "English": "tweak transfer",
+    "Chinese": "tweak transfer",
+    "French": "tweak transfer",
+    "German": "tweak transfer",
+    "Italian": "tweak transfer",
+    "Japanese": "tweak transfer",
+    "Korean": "tweak transfer",
+    "Polish": "tweak transfer",
+    "Russian": "tweak transfer",
+    "Spanish": "tweak transfer",
+    "Taiwanese": "tweak transfer"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}
