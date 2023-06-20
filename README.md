@@ -1,19 +1,20 @@
 # AnnoMods
+
 A collection of mods for Anno 1800.
 For screenshots, I refer to their respective Nexus pages. https://www.nexusmods.com/anno1800/users/117341793?tab=user+files&BH=1
 
 # How to use
-- Get the mod loader https://github.com/xforce/anno1800-mod-loader 
+
+- Get the mod loader https://github.com/xforce/anno1800-mod-loader
+
 - [Download the repository](https://github.com/xormenter/AnnoMods/releases) and place the mod folders into your anno mods folder (alternatively: use your mod manager)
 
 Alternatively, you can use the [iModYourAnno](https://github.com/anno-mods/iModYourAnno) Mod Manager.
 
 ## Industrialized Low Tier Production
 
-### Requires:
-- Shared Goods Collection: https://github.com/jakobharder/anno-1800-jakobs-mods
-- Cattle needs to be Butchered
-### About 
+### About
+
 Anno 1800 is all about the age of industrialization. Yet in the game, we cannot industrialize the low tier goods production and instead have to place down thousands of them.
 This mod fixes this problem by introducing advanced production chains, unlocked at the artisan level, that allow you to produce much more goods with fewer (but larger) buildings. To balance this, the new factories are more expensive and all require worker-workforce instead of farmers.
 
@@ -34,22 +35,20 @@ Overview:
 - Sausage Factory: 6 sausages per minute. Can be improved with electricity.
 - Large Rendering Works (Tallow)
 - Large Soap Factory
-- Industrial Pig Farm (requires a silo supplied with Corn + Potatoes; gets a -1000% productivity debuff unless it is supplied with food) 
-
-Additionally, there is a cattle version of the pig farm. *It requires both the Cattle needs to be butchered mod and Jakobs Shared Goods. *
-
-- Industrial Cattle Farm, produces cattle (requires a silo supplied with Corn + Grain), allows the production of milk from cattle using the 'fertilizer' module
+- Industrial Pig Farm (requires a silo supplied with Corn + Potatoes; gets a -1000% productivity debuff unless it is supplied with food)
+- Industrial Cattle Farm(requires a silo supplied with Corn + Grain), allows the production of milk from cattle using the 'fertilizer' module
 
 Thanks to Jakob for making the flour mill ground decal and the wonderful modular ground decal package.
 
 ## Cattle Needs to be Butchered
+
 Don't you find it a bit weird that a pig farm produces pigs while a cattle farm produces ... meat? Then this mod is for you: Cattle farms now produce cattle instead of meat. The cattle then needs to be butchered at a butchery before its meat can be processed.
 Adds two 3d models for the butchery (NW/OW).
 The butchery unlocks at 1 artisan. The old world variant employs workers, the new world one jornaleros. Both have a production time of 30s.
 Also adds an bigger version of the OW butchery with a production time of 10 seconds.
 
-
 ## Small Pier
+
 Personally, I find the default pier in Anno 1800 quite... ugly. It just doesn't fit nicely in my harbors.
 So I made these smaller pier that do not have a big building and thus fit into any harbor you can imagine. They are  variations of the normal/advanced pier, so no extra building. With appropriate variations (feedback units) for OW, NW, Enbesa.
 
@@ -61,6 +60,7 @@ It comes in 4 variants:
 - Long Diagonal
 
 ## Diagonal Harbor
+
 Adds diagonal variations to:
 
 - Depots
@@ -72,6 +72,7 @@ The diagonal depots have almost no blocking, this allows you to place them relat
 Adds an ornamental loading pier (both straight and diagonal) that fits nicely with my other mod here Small and Diagonal Quays
 
 ## Advertisement :-)
+
 You know a little bit about blender or are willing to dive into it? Then I have good news for you: Making your own in-game assets is relatively easy. https://github.com/xormenter/Blender-Anno-.cfg-Import-Addon
 And thankfully, getting your assets in game is also easy, thanks to Jakobs VS Code Plugin. https://github.com/jakobharder/anno-1800-jakobs-mods
 Furthermore, there's a helpful community of modders. https://discord.gg/YTQGDFK

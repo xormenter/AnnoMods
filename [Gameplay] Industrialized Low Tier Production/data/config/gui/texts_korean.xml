@@ -1,0 +1,179 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423005</GUID>
+      <Text>Large Bakery</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423010</GUID>
+      <Text>Electrical Flour Mill</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423011</GUID>
+      <Text>Advanced Bread Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423015</GUID>
+      <Text>Textile Factory</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423016</GUID>
+      <Text>Advanced Workcloth Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423020</GUID>
+      <Text>Large Schnapps Distillery</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423021</GUID>
+      <Text>Advanced Schnapps Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423025</GUID>
+      <Text>Advanced Sawmill</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423026</GUID>
+      <Text>Advanced Timber Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423027</GUID>
+      <Text>Advanced Sawmill</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423028</GUID>
+      <Text>Advanced Timber Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423030</GUID>
+      <Text>Advanced Sailmakers</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423031</GUID>
+      <Text>Advanced Sail Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423035</GUID>
+      <Text>Sausage Factory</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423036</GUID>
+      <Text>Advanced Sausage Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423040</GUID>
+      <Text>Large Steel Furnace</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423045</GUID>
+      <Text>Large Steelworks</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423041</GUID>
+      <Text>Advanced Steel Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423043</GUID>
+      <Text>Advanced Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423044</GUID>
+      <Text>Advanced Production Chains</Text>
+    </Text>
+      <Text>
+      <!-- TODO translation -->
+      <GUID>1404423050</GUID>
+      <Text>Large Soap Factory</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423051</GUID>
+      <Text>Large Rendering Works</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423052</GUID>
+      <Text>Advanced Soap Production</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423054</GUID>
+      <Text>Feeding the Animals</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423060</GUID>
+      <Text>Hungry Animals</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423055</GUID>
+      <Text>Pig Factory Farm</Text>
+    </Text>
+     <Text>
+      <!-- TODO translation -->
+      <GUID>1404423058</GUID>
+      <Text>Silo (Pig Food)</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423056</GUID>
+      <Text>Advanced Pig Sty</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423061</GUID>
+      <Text>Milking Parlour</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423067</GUID>
+      <Text>Produces Milk from Cattle. For reasons unknown to your farmers, milk production is deadly for the cows.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423068</GUID>
+      <Text>Stores food for the animals and enables production.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423065</GUID>
+      <Text>Cattle Factory Farm</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423066</GUID>
+      <Text>Advanced Cattle Sty</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423062</GUID>
+      <Text>Producing Milk</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1404423064</GUID>
+      <Text>Silo (Cattle Food)</Text>
+    </Text>
+  </ModOp>
+</ModOps>
