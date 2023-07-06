@@ -41,7 +41,6 @@ Overview:
 - Large Rendering Works (Tallow)
 - Large Soap Factory
 - Industrial Pig Farm (requires a silo supplied with Corn + Potatoes; gets a -1000% productivity debuff unless it is supplied with food)
-
 Additionally, there is a cattle version of the pig farm. *It requires both the Cattle needs to be butchered mod and Jakobs Shared Goods. *
 
 - Industrial Cattle Farm, produces cattle (requires a silo supplied with Corn + Grain), allows the production of milk from cattle using the 'fertilizer' module
@@ -54,7 +53,6 @@ Don't you find it a bit weird that a pig farm produces pigs while a cattle farm 
 Adds two 3d models for the butchery (NW/OW).
 The butchery unlocks at 1 artisan. The old world variant employs workers, the new world one jornaleros. Both have a production time of 120s.
 Also adds an bigger version of the OW butchery with a production time of 30 seconds if Industrialized Low Tier Production is activ.
-
 
 ## Small Pier
 
