@@ -1,6 +1,6 @@
 {
-  "Version": "1.6",
-  "ModID": "IndustrializedLowTierProductionFishery",
+  "Version": "1.1",
+  "ModID": "Small Piers",
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
@@ -18,9 +18,9 @@
   },
   "ModName": {
     "Chinese": null,
-    "English": "Industrialized Low Tier Production Fishery",
+    "English": "Small Piers",
     "French": null,
-    "German": "Industrialized Low Tier Production Fishery",
+    "German": "Small Piers",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -31,7 +31,7 @@
   },
   "Description": {
     "Chinese": null,
-    "English": "Adds an industrialized fishery",
+    "English": "Adds pier variations and ornaments",
     "French": null,
     "German": null,
     "Italian": null,

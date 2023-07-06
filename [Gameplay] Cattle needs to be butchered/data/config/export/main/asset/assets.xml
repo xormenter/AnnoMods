@@ -1,879 +1,724 @@
 <?xml version="1.0"?>
 <ModOps>
-  <ModOp GUID="114341" Type="addNextSibling">
-    <Asset>
-      <Template>Product</Template>
-      <Values>
+  <!-- OW cattle farm-->
+    <Group>
+      <ModOp Type="merge" GUID="1010263" Path="/Values">
         <Standard>
-          <GUID>1404422300</GUID>
-          <!-- 1404422300 -->
-          <Name>Cattle</Name>
           <IconFilename>data/modgraphics/icons/icon_cattle.png</IconFilename>
-          <InfoDescription>1404422301</InfoDescription>
         </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Cattle</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>35148</LineID>
-        </Text>
-        <Locked/>
-        <Product>
-          <StorageLevel>Building</StorageLevel>
-          <ProductCategory>11702</ProductCategory>
-          <BasePrice>20</BasePrice>
-          <CivLevel>3</CivLevel>
-          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
-        </Product>
-        <ExpeditionAttribute>
-          <BaseMorale>0</BaseMorale>
-          <ExpeditionAttributes>
-            <Item>
-              <Attribute>Melee</Attribute>
-              <Amount>5</Amount>
-            </Item>
-          </ExpeditionAttributes>
-        </ExpeditionAttribute>
-      </Values>
-    </Asset>
-  </ModOp>
-
-
-  <ModOp Type="add" GUID="120055" Path="/Values/ProductStorageList/ProductList">
-    <!--ADD NEW ITEMS TO STORAGE-LIST-->
-    <Item>
-      <Product>1404422300</Product>
-    </Item>
-  </ModOp>
-  <ModOp Type="add" GUID="502037,502038,501997,502019,502004,502008,502001" Path="/Values/ProductList/List">
-    <!--ADD TO PRODUCT-LIST-->
-    <Item>
-      <Product>1404422300</Product>
-    </Item>
-  </ModOp>
-
-
-<!-- OW cattle farm-->
-  <ModOp Type="replace" GUID="1010263" Path="/Values/FactoryBase/FactoryOutputs/">
-    <FactoryOutputs>
-      <Item>
-        <Product>1404422300</Product>
-        <!-- Rinder -->
-        <Amount>1</Amount>
-        <StorageAmount>7</StorageAmount>
-      </Item>
-    </FactoryOutputs>
-  </ModOp>
-
-
-  <ModOp Type="replace" GUID="1010263,101269" Path="/Values/Standard/IconFilename/">
-    <IconFilename>data/modgraphics/icons/icon_cattle.png</IconFilename>
-  </ModOp>
-
-  
-  <!-- NW cattle farm-->
-  <ModOp Type="replace" GUID="101269" Path="/Values/FactoryBase/FactoryOutputs/">
-    <FactoryOutputs>
-      <Item>
-        <Product>1404422300</Product>
-        <!-- Rinder -->
-        <Amount>1</Amount>
-        <StorageAmount>7</StorageAmount>
-      </Item>
-    </FactoryOutputs>
-  </ModOp>
-
-  <ModOp GUID="100451" Type="addNextSibling">
-    <Asset>
-      <Template>FactoryBuilding7</Template>
-      <Values>
-        <Standard>
-          <GUID>1404422305</GUID>
-          <!-- 1404422305 -->
-          <Name>mod_butcher</Name>
-          <IconFilename>data/modgraphics/icons/icon_butcher.png</IconFilename>
-          <InfoDescription>1404422352</InfoDescription>
-        </Standard>
-        <Building>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
-          <BuildModeRandomRotation>180</BuildModeRandomRotation>
-          <AssociatedRegions>Moderate</AssociatedRegions>
-        </Building>
-        <Blocking/>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <!-- Münzen -->
-              <Amount>1000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <!-- Bretter -->
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <!-- Ziegelsteine -->
-              <Amount>10</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/modgraphics/meat_butcher/meat_butcher_01.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh/>
-        <Selection>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-        </Selection>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Factory</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>5316</LineID>
-        </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>200682</Sound>
-            </Item>
-          </ActiveSounds>
-          <IncidentSounds>
-            <InfectedFire>
-              <Item>
-                <Sound>214659</Sound>
-              </Item>
-            </InfectedFire>
-          </IncidentSounds>
-        </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
         <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1404422300</Product>
-              <!-- Rinder -->
-              <Amount>1</Amount>
-              <StorageAmount>7</StorageAmount>
-            </Item>
-          </FactoryInputs>
           <FactoryOutputs>
             <Item>
-              <Product>1010193</Product>
-              <!-- Rindfleisch -->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
-            </Item>
-          </FactoryOutputs>
-          <CycleTime>30</CycleTime>
-          <IsMainFactory>1</IsMainFactory>
-        </FactoryBase>
-        <LogisticNode/>
-        <AmbientMoodProvider>
-          <Murmur>Factory</Murmur>
-          <DynamicEnvironmentType>None</DynamicEnvironmentType>
-      </AmbientMoodProvider>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <!-- Münzen -->
-              <Amount>80</Amount>
-              <InactiveAmount>40</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010115</Product>
-              <!-- Arbeiter-Arbeitskraft -->
-              <Amount>50</Amount>
-              <InactiveAmount>25</InactiveAmount>
-            </Item>
-          </Maintenances>
-        </Maintenance><Attackable>
-        <AttackableType>IslandBuilding</AttackableType>
-        <MaximumHitPoints>1750</MaximumHitPoints>
-        <SelfHealPerHealTick>4</SelfHealPerHealTick>
-    </Attackable>
-        <Pausable/>
-        <IncidentInfectable>
-            <Infectable>
-                <Explosion>
-                    <Base>0</Base>
-                    <Escalated>0</Escalated>
-                </Explosion>
-            </Infectable>
-            <Explosion>
-                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
-            </Explosion>
-            <IncidentInfectionChanceFactors>
-                <Fire>
-                    <DensityDistance>20</DensityDistance>
-                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-                </Fire>
-                <Riot>
-                    <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-                    <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-                    <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-                    <HappinessThreshold>20</HappinessThreshold>
-                </Riot>
-            </IncidentInfectionChanceFactors>
-        </IncidentInfectable>
-        <Industrializable/>
-        <Culture>
-            <Attractiveness>-5</Attractiveness>
-            <CultureType>Military</CultureType>
-        </Culture>
-        <QuestObject/>
-        <Electrifiable/>
-        <EcoSystemProvider/>
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <ModOp GUID="100451" Type="addNextSibling">
-    <Asset>
-      <Template>FactoryBuilding7</Template>
-      <Values>
-        <Standard>
-          <GUID>1404422306</GUID>
-          <Name>mod_SA_butcher</Name>
-          <IconFilename>data/modgraphics/icons/icon_butcher.png</IconFilename>
-          <InfoDescription>1404422352</InfoDescription>
-        </Standard>
-        <Building>
-          <BuildModeRandomRotation>180</BuildModeRandomRotation>
-          <AssociatedRegions>Colony01</AssociatedRegions>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
-        </Building>
-        <Blocking/>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <!-- Münzen -->
-              <Amount>1000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <!-- Bretter -->
-              <Amount>10</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <!-- Ziegelsteine -->
-              <Amount>10</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/modgraphics/meat_butcher_nw/meat_butcher_nw_01.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh/>
-        <Selection>
-          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-        </Selection>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Factory</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>5316</LineID>
-        </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>200682</Sound>
-            </Item>
-          </ActiveSounds>
-          <IncidentSounds>
-            <InfectedFire>
-              <Item>
-                <Sound>214659</Sound>
-              </Item>
-            </InfectedFire>
-          </IncidentSounds>
-        </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
               <Product>1404422300</Product>
-              <!-- Rinder -->
-              <Amount>1</Amount>
-              <StorageAmount>7</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <FactoryOutputs>
-            <Item>
-              <Product>1010193</Product>
-              <!-- Rindfleisch -->
-              <Amount>1</Amount>
-              <StorageAmount>5</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <CycleTime>30</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
-        <LogisticNode/>
-        <AmbientMoodProvider>
-          <Murmur>Factory</Murmur>
-          <DynamicEnvironmentType>None</DynamicEnvironmentType>
-      </AmbientMoodProvider>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <!-- Münzen -->
-              <Amount>80</Amount>
-              <InactiveAmount>40</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010366</Product>
-              <!-- Jornalero-Arbeitskraft -->
-              <Amount>40</Amount>
-              <InactiveAmount>25</InactiveAmount>
-            </Item>
-          </Maintenances>
-        </Maintenance><Attackable>
-        <AttackableType>IslandBuilding</AttackableType>
-        <MaximumHitPoints>1750</MaximumHitPoints>
-        <SelfHealPerHealTick>4</SelfHealPerHealTick>
-    </Attackable>
-    <Pausable/>
-    <IncidentInfectable>
-        <Infectable>
-            <Explosion>
-                <Base>0</Base>
-                <Escalated>0</Escalated>
-            </Explosion>
-        </Infectable>
-        <Explosion>
-            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
-        </Explosion>
-        <IncidentInfectionChanceFactors>
-            <Fire>
-                <DensityDistance>20</DensityDistance>
-                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-            </Fire>
-            <Riot>
-                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-                <HappinessThreshold>20</HappinessThreshold>
-            </Riot>
-        </IncidentInfectionChanceFactors>
-    </IncidentInfectable>
-    <Industrializable/>
-    <Culture>
-        <Attractiveness>-5</Attractiveness>
-        <CultureType>Military</CultureType>
-    </Culture>
-    <QuestObject/>
-    <Electrifiable/>
-    <EcoSystemProvider/>
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <ModOp GUID="500029" Type="addNextSibling">
-    <Asset>
-      <Template>ProductionChain</Template>
-      <!-- ProductionChain -->
-      <Values>
+      </ModOp>
+    </Group>
+  <!-- NW cattle farm-->
+    <Group>
+      <ModOp Type="merge" GUID="101269" Path="/Values">
         <Standard>
-          <GUID>1404420055</GUID>
-          <Name>production chain</Name>
-          <IconFilename>data/modgraphics/icons/icon_butcher.png</IconFilename>
+          <IconFilename>data/modgraphics/icons/icon_cattle.png</IconFilename>
         </Standard>
-        <ProductionChain>
-          <Building>1404422305</Building>
-          <Tier1>
+        <FactoryBase>
+          <FactoryOutputs>
             <Item>
-              <Building>1404422300</Building>
-              <!-- Rinder -->
+              <Product>1404422300</Product>
             </Item>
-          </Tier1>
-        </ProductionChain>
-        <Locked/>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>chain</Text>
-              <Status>Exported</Status>
-              <ExportCount>2</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>14906</LineID>
-        </Text>
-      </Values>
-    </Asset>
-  </ModOp>
-
-
-<ModOp GUID="117268" Type="replace" Path="/">
-    <Asset>
-      <Template>ProductionChain</Template>
-      <Values>
-        <Standard>
-          <GUID>117268</GUID>
-          <!-- Konservendosen -->
-          <Name>arctic canned food chain</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_canned_goulash.png</IconFilename>
-          <Version>dlc03</Version>
-        </Standard>
-        <ProductionChain>
-          <Building>1010295</Building>
-          <!-- Konservenfabrik -->
-          <Tier1>
+          </FactoryOutputs>
+        </FactoryBase>
+      </ModOp>
+    </Group>
+  <!-- cattle farm II -->
+    <Group Condition="@1404423065">
+      <ModOp Type="merge" GUID="1404423065" Path="/Values">
+        <FactoryBase>
+          <FactoryOutputs>
             <Item>
-              <Building>1010305</Building>
-              <!-- Eisenmine -->
+              <Product>1404422300</Product>
             </Item>
-            <Item>
-              <Building>1010293</Building>
-              <!-- Großküche -->
-              <Tier2>
-                <Item>
-                  <Building>1404422305</Building>
-                  <!-- Meat butcher -->
-                  <Tier3>
+          </FactoryOutputs>
+        </FactoryBase>
+      </ModOp>
+    </Group>
+  <!-- Butcheries -->
+    <Group>
+      <!-- New Entries -->
+        <Group>
+          <ModOp GUID="100451" Type="addNextSibling">
+            <Asset>
+              <Template>FactoryBuilding7</Template>
+              <Values>
+                <Standard>
+                  <GUID>1404422305</GUID>
+                  <Name>meat_butcher</Name>
+                  <IconFilename>data/modgraphics/icons/icon_butcher.png</IconFilename>
+                </Standard>
+                <Building>
+                  <SecondPartyRelevant>0</SecondPartyRelevant>
+                  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                  <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <Blocking/>
+                <Cost>
+                  <Costs>
                     <Item>
-                      <Building>1010263</Building>
-                      <!-- Rinderfarm -->
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>1000</Amount>
                     </Item>
-                  </Tier3>
-                </Item>
-                <Item>
-                  <Building>100654</Building>
-                  <!-- Paprikafarm -->
-                </Item>
-              </Tier2>
-            </Item>
-          </Tier1>
-        </ProductionChain>
-        <Locked/>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Canned Food</Text>
-              <Status>Exported</Status>
-              <ExportCount>2</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>36001</LineID>
-        </Text>
-      </Values>
-    </Asset>
-  </ModOp>
-
-    <ModOp GUID="500008" Type="replace" Path="/">
-    <Asset>
-      <Template>ProductionChain</Template>
-      <Values>
-        <Standard>
-          <GUID>500008</GUID>
-          <!-- Fleischkonserven -->
-          <Name>canned food chain</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_canned_goulash.png</IconFilename>
-        </Standard>
-        <ProductionChain>
-          <Building>1010295</Building>
-          <!-- Konservenfabrik -->
-          <Tier1>
-            <Item>
-              <Building>1010305</Building>
-              <!-- Eisenmine -->
-            </Item>
-            <Item>
-              <Building>1010293</Building>
-              <!-- Großküche -->
-              <Tier2>
-                <Item>
-                  <Building>1404422305</Building>
-                  <!-- Meat butcher -->
-                  <Tier3>
                     <Item>
-                      <Building>1010263</Building>
-                      <!-- Rinderfarm -->
+                      <Ingredient>1010196</Ingredient>
+                      <Amount>10</Amount>
                     </Item>
-                  </Tier3>
-                </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>10</Amount>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <Object>
+                  <Variations>
+                    <Item>
+                      <Filename>data/modgraphics/meat_butcher/meat_butcher_01.cfg</Filename>
+                    </Item>
+                  </Variations>
+                </Object>
+                <Mesh/>
+                <Selection>
+                  <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                  <Colors>
+                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                  </Colors>
+                </Selection>
+                <Text>
+                  <LocaText>
+                    <English>
+                      <Text>Factory</Text>
+                      <Status>Exported</Status>
+                      <ExportCount>1</ExportCount>
+                    </English>
+                  </LocaText>
+                  <LineID>5316</LineID>
+                </Text>
+                <Constructable/>
+                <Locked/>
+                <SoundEmitter>
+                  <ActiveSounds>
+                    <Item>
+                      <Sound>200682</Sound>
+                    </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController/>
+                <Infolayer/>
+                <UpgradeList/>
+                <Factory7/>
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1404422300</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>7</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>1010193</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>5</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>120</CycleTime>
+                  <IsMainFactory>1</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode/>
+                <AmbientMoodProvider>
+                  <Murmur>Factory</Murmur>
+                  <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                  <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>80</Amount>
+                      <InactiveAmount>40</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010115</Product>
+                      <Amount>50</Amount>
+                      <InactiveAmount>25</InactiveAmount>
+                    </Item>
+                  </Maintenances>
+                </Maintenance><Attackable>
+                <AttackableType>IslandBuilding</AttackableType>
+                <MaximumHitPoints>1750</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable/>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable/>
+                <Culture>
+                    <Attractiveness>-5</Attractiveness>
+                    <CultureType>Military</CultureType>
+                </Culture>
+                <QuestObject/>
+                <Electrifiable/>
+                <EcoSystemProvider/>
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>FactoryBuilding7</Template>
+              <Values>
+                <Standard>
+                  <GUID>1404422306</GUID>
+                  <Name>meat_butcher_colony01</Name>
+                  <IconFilename>data/modgraphics/icons/icon_butcher.png</IconFilename>
+                  <InfoDescription>1404422352</InfoDescription>
+                </Standard>
+                <Building>
+                  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                  <AssociatedRegions>Colony01</AssociatedRegions>
+                  <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking/>
+                <Cost>
+                  <Costs>
+                    <Item>
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>1000</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010196</Ingredient>
+                      <Amount>10</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>10</Amount>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <Object>
+                  <Variations>
+                    <Item>
+                      <Filename>data/modgraphics/meat_butcher_nw/meat_butcher_nw_01.cfg</Filename>
+                    </Item>
+                  </Variations>
+                </Object>
+                <Mesh/>
+                <Selection>
+                  <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                  <Colors>
+                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                  </Colors>
+                </Selection>
+                <Text>
+                  <LocaText>
+                    <English>
+                      <Text>Factory</Text>
+                      <Status>Exported</Status>
+                      <ExportCount>1</ExportCount>
+                    </English>
+                  </LocaText>
+                  <LineID>5316</LineID>
+                </Text>
+                <Constructable/>
+                <Locked/>
+                <SoundEmitter>
+                  <ActiveSounds>
+                    <Item>
+                      <Sound>200682</Sound>
+                    </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController/>
+                <Infolayer/>
+                <UpgradeList/>
+                <Factory7/>
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1404422300</Product>
+                      <!-- Rinder -->
+                      <Amount>1</Amount>
+                      <StorageAmount>7</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>1010193</Product>
+                      <!-- Rindfleisch -->
+                      <Amount>1</Amount>
+                      <StorageAmount>5</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>30</CycleTime>
+                  <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode/>
+                <AmbientMoodProvider>
+                  <Murmur>Factory</Murmur>
+                  <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                  <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <!-- Münzen -->
+                      <Amount>80</Amount>
+                      <InactiveAmount>40</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010366</Product>
+                      <!-- Jornalero-Arbeitskraft -->
+                      <Amount>40</Amount>
+                      <InactiveAmount>25</InactiveAmount>
+                    </Item>
+                  </Maintenances>
+                </Maintenance><Attackable>
+                <AttackableType>IslandBuilding</AttackableType>
+                <MaximumHitPoints>1750</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable/>
+                <IncidentInfectable>
+                  <Infectable>
+                      <Explosion>
+                          <Base>0</Base>
+                          <Escalated>0</Escalated>
+                      </Explosion>
+                  </Infectable>
+                  <Explosion>
+                      <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                  </Explosion>
+                  <IncidentInfectionChanceFactors>
+                      <Fire>
+                          <DensityDistance>20</DensityDistance>
+                          <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                          <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                      </Fire>
+                      <Riot>
+                          <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                          <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                          <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                          <HappinessThreshold>20</HappinessThreshold>
+                      </Riot>
+                  </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable/>
+                <Culture>
+                  <Attractiveness>-5</Attractiveness>
+                  <CultureType>Military</CultureType>
+                </Culture>
+                <QuestObject/>
+                <Electrifiable/>
+                <EcoSystemProvider/>
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>FactoryBuilding7</Template>
+              <Values>
+                <Standard>
+                  <GUID>1404422310</GUID>
+                  <Name>advanced_meat_butcher</Name>
+                  <IconFilename>data\modgraphics\icons\icon_advanced_butcher.png</IconFilename>
+                </Standard>
+                <Building>
+                  <SecondPartyRelevant>0</SecondPartyRelevant>
+                  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                  <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <Blocking/>
+                <Cost>
+                  <Costs>
+                    <Item>
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>5000</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010196</Ingredient>
+                      <Amount>40</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>50</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                      <Amount>20</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010202</Ingredient>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <Object>
+                  <Variations>
+                    <Item>
+                      <Filename>data\modgraphics\advanced_meat_butcher\advanced_meat_butcher.cfg</Filename>
+                    </Item>
+                  </Variations>
+                </Object>
+                <Mesh/>
+                <Selection>
+                  <OnSelection>
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                      <ActionList/>
+                    </Values>
+                  </OnSelection>
+                  <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                  <Colors>
+                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                  </Colors>
+                </Selection>
+                <Text>
+                  <LocaText>
+                    <English>
+                      <Text>Butcher's</Text>
+                      <Status>Exported</Status>
+                      <ExportCount>1</ExportCount>
+                    </English>
+                  </LocaText>
+                  <LineID>5262</LineID>
+                </Text>
+                <Constructable/>
+                <Locked/>
+                <SoundEmitter>
+                  <ActiveSounds>
+                    <Item>
+                      <Sound>216877</Sound>
+                    </Item>
+                    <Item>
+                      <Sound>202395</Sound>
+                    </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController/>
+                <Infolayer/>
+                <UpgradeList/>
+                <Factory7/>
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1404422300</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>21</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>1010193</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>15</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>30</CycleTime>
+                  <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode/>
+                <AmbientMoodProvider>
+                  <Murmur>Factory</Murmur>
+                  <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                  <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>240</Amount>
+                      <InactiveAmount>120</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010115</Product>
+                      <Amount>120</Amount>
+                    </Item>
+                  </Maintenances>
+                </Maintenance>
+                <Attackable>
+                  <MaximumHitPoints>1750</MaximumHitPoints>
+                  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable/>
+                <IncidentInfectable>
+                  <Infectable>
+                    <Explosion>
+                      <Base>0</Base>
+                      <Escalated>0</Escalated>
+                    </Explosion>
+                  </Infectable>
+                  <Explosion>
+                    <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                  </Explosion>
+                  <IncidentInfectionChanceFactors>
+                    <Fire>
+                      <DensityDistance>20</DensityDistance>
+                      <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                      <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                    </Fire>
+                    <Riot>
+                      <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                      <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                      <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                      <HappinessThreshold>20</HappinessThreshold>
+                    </Riot>
+                  </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable/>
+                <Culture>
+                  <Attractiveness>-15</Attractiveness>
+                  <CultureType>Military</CultureType>
+                </Culture>
+                <QuestObject/>
+                <Electrifiable/>
+                <EcoSystemProvider/>
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>ItemEffectTargetPool</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500300915</GUID>
+                  <Name>all_butcheries</Name>
+                </Standard>
+                <ItemEffectTargetPool>
+                  <EffectTargetGUIDs>
+                    <Item>
+                      <GUID>1404422305</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>1404422306</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>1404422310</GUID>
+                    </Item>
+                  </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+              </Values>
+            </Asset>
+          </ModOp>
+        </Group>
+      <!-- Adding to Pools/Items/Menus -->
+        <Group>
+          <!-- Pools -->
+            <ModOp Type="add" GUID="368,190897,6000018,193875,193856,190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+              <Item>
+                <GUID>1404422305</GUID>
+              </Item>
+              <Item>
+                <GUID>1404422306</GUID>
+              </Item>
+              <Item>
+                <GUID>1404422310</GUID>
+              </Item>
+            </ModOp>
+          <!-- Items -->
+            <ModOp Type="add" GUID="191384,191397,191403,191401" Path="/Values/ItemEffect/EffectTargets">
+              <Item>
+                <GUID>1500300915</GUID>
+              </Item>
+            </ModOp>
+          <!-- WorkforceMenu -->
+            <ModOp GUID="25000087" Type="add" Path= "/Values/WorkforceMenu/BoostableFactories">
+              <Item>
+                <Factory>1404422305</Factory>
+              </Item>
+              <Item>
+                <Factory>1404422306</Factory>
+              </Item>
+              <Item>
+                <Factory>1404422310</Factory>
+              </Item>
+            </ModOp>
+          <!-- Feedbacks -->
+            <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+              <Item>
+                <Building>1404422305</Building>
+              </Item>
+              <Item>
+                <Building>1404422306</Building>
+              </Item>
+              <Item>
+                <Building>1404422310</Building>
+              </Item>
+            </ModOp>
+          <!-- Advanced_Production_Category -->
+            <ModOp Type="add" GUID="1404423043" Path="/Values/ConstructionCategory/BuildingList" Condition="@1404423043">
+              <Item>
+                <Building>1404422310</Building>
+              </Item>
+            </ModOp>
+        </Group>
+    </Group>
+  <!-- Chain Changes -->
+    <Group>
+      <!-- Canned Food -->
+        <Group>
+          <ModOp GUID="500008" Type="replace" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010263']">
+            <Item>
+              <Building>1404422305</Building>
+              <Tier3>
                 <Item>
-                  <Building>100654</Building>
-                  <!-- Paprikafarm -->
+                  <Building>1010263</Building>
                 </Item>
-                <Item>
-                  <Building>1404422310</Building>
-                  <!-- Alternative Advanced Butcher -->
-                </Item>
-              </Tier2>
+              </Tier3>
             </Item>
-          </Tier1>
-        </ProductionChain>
-        <Locked/>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Canned Food</Text>
-              <Status>Exported</Status>
-              <ExportCount>2</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>14893</LineID>
-        </Text>
-      </Values>
-    </Asset>
-  </ModOp>
-
-   <ModOp GUID="500911" Type="replace" Path="/">
-    <Asset>
-      <Template>ProductionChain</Template>
-      <Values>
-        <Standard>
-          <GUID>500911</GUID>
-          <!-- Tortilla -->
-          <Name>colony01 burrito chain</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_burrito.png</IconFilename>
-        </Standard>
-        <ProductionChain>
-          <Building>101271</Building>
-          <!-- Tortilla-Bäckerei -->
-          <Tier1>
+          </ModOp>
+          <ModOp GUID="500008" Type="replace" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1404423065']" Condition="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1404423065']">
+            <Item>
+              <Building>1404422310</Building>
+              <Tier3>
+                <Item>
+                  <Building>1404423065</Building>
+                </Item>
+              </Tier3>
+            </Item>
+          </ModOp>
+        </Group>
+      <!-- Arctic Canned Food -->
+        <Group>
+          <ModOp GUID="117268" Type="replace" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010263']">
+            <Item>
+              <Building>1404422305</Building>
+              <Tier3>
+                <Item>
+                  <Building>1010263</Building>
+                </Item>
+              </Tier3>
+            </Item>
+          </ModOp>
+        </Group>
+      <!-- Colony01 Burrito -->
+        <Group>
+          <ModOp GUID="500911" Type="replace" Path="/Values/ProductionChain/Tier1/Item[Building='101269']">
             <Item>
               <Building>1404422306</Building>
-              <!-- Meat butcher -->
-              <Tier2>
+              <Tier3>
                 <Item>
                   <Building>101269</Building>
-                  <!-- Rinderfarm -->
                 </Item>
-              </Tier2>
+              </Tier3>
             </Item>
-            <Item>
-              <Building>101270</Building>
-              <!-- Maisplantage -->
-            </Item>
-          </Tier1>
-        </ProductionChain>
-        <Locked/>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Tortilla</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>21468</LineID>
-        </Text>
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <ModOp Type="add" GUID="368,190897,6000018,193875,193856,190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-    <Item>
-      <GUID>1404422305</GUID>
-    </Item>
-        <Item>
-      <GUID>1404422310</GUID>
-    </Item>
-  </ModOp>
-
-  	<ModOp Type="add" GUID="191384,191397,191403,191401" Path="/Values/ItemEffect/EffectTargets">
-    <Item>
-      <GUID>1404422305</GUID>
-    </Item>
-        <Item>
-      <GUID>1404422310</GUID>
-    </Item>
-      <Item>
-      <GUID>1404422306</GUID>
-    </Item>
-	</ModOp>
-  
-  <ModOp Type="add" GUID="368,190897,6000018,193875,193856,190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-    <Item>
-      <GUID>1404422306</GUID>
-    </Item>
-  </ModOp>
-
-
-  <ModOp Type="addnextSibling" GUID="130248">
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>1404422307</GUID>
-          <Name>MOD Trigger</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition/>
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000002</Context>
-                <CounterAmount>1</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
+          </ModOp>
+        </Group>
+    </Group>
+  <!-- Trigger -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+          <Template>Trigger</Template>
+          <Values>
+            <Standard>
+              <GUID>1404422307</GUID>
+              <Name>MOD Trigger</Name>
+            </Standard>
+            <Trigger>
+              <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
                 <Values>
-                  <Action/>
-                  <ActionUnlockAsset>
-                    <UnhideAssets>
-                      <Item>
-                        <Asset>1404422300</Asset>
-                        <!-- 1404422300 -->
-                      </Item>
-                      <Item>
-                        <Asset>1404422305</Asset>
-                        <!-- 1404422305 -->
-                      </Item>
-                      <Item>
-                        <Asset>1404422310</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1404422306</Asset>
-                      </Item>
-                    </UnhideAssets>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>1404422300</Asset>
-                        <!-- 1404422300 -->
-                      </Item>
-                      <Item>
-                        <Asset>1404422305</Asset>
-                        <!-- 1404422305 -->
-                      </Item>
-                      <Item>
-                        <Asset>1404422310</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1404422306</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
+                  <Condition/>
+                  <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>15000002</Context>
+                    <CounterAmount>1</CounterAmount>
+                  </ConditionPlayerCounter>
                 </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup/>
-      </Values>
-    </Asset>
-  </ModOp>
-
-   <ModOp GUID="1010294" Type="addNextSibling" Path="/">
-    <Asset>
-      <Template>FactoryBuilding7</Template>
-      <Values>
-        <Standard>
-          <GUID>1404422310</GUID>
-          <Name>advanced meat butcher</Name>
-          <IconFilename>data\modgraphics\icons\icon_advanced_butcher.png</IconFilename>
-        </Standard>
-        <Building>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
-					<!-- tell AI to ignore this building -->
-          <BuildModeRandomRotation>180</BuildModeRandomRotation>
-          <AssociatedRegions>Moderate</AssociatedRegions>
-        </Building>
-        <Blocking/>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>5000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>40</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>50</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>20</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-            </Item>
-          </Costs>
-        </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data\modgraphics\advanced_meat_butcher\advanced_meat_butcher.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <Mesh/>
-        <Selection>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList/>
-            </Values>
-          </OnSelection>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
-          <Colors>
-            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-          </Colors>
-        </Selection>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Butcher's</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>5262</LineID>
-        </Text>
-        <Constructable/>
-        <Locked/>
-        <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>216877</Sound>
-            </Item>
-            <Item>
-              <Sound>202395</Sound>
-            </Item>
-          </ActiveSounds>
-          <IncidentSounds>
-            <InfectedFire>
-              <Item>
-                <Sound>214659</Sound>
-              </Item>
-            </InfectedFire>
-          </IncidentSounds>
-        </SoundEmitter>
-        <FeedbackController/>
-        <Infolayer/>
-        <UpgradeList/>
-        <Factory7/>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1404422300</Product>
-              <Amount>1</Amount>
-              <StorageAmount>21</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <FactoryOutputs>
-            <Item>
-              <Product>1010193</Product>
-              <Amount>1</Amount>
-              <StorageAmount>15</StorageAmount>
-            </Item>
-          </FactoryOutputs>
-          <CycleTime>10</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
-        </FactoryBase>
-        <LogisticNode/>
-        <AmbientMoodProvider>
-          <Murmur>Factory</Murmur>
-          <DynamicEnvironmentType>None</DynamicEnvironmentType>
-        </AmbientMoodProvider>
-        <Maintenance>
-          <Maintenances>
-            <Item>
-              <Product>1010017</Product>
-              <Amount>240</Amount>
-              <InactiveAmount>120</InactiveAmount>
-            </Item>
-            <Item>
-              <Product>1010115</Product>
-              <Amount>120</Amount>
-            </Item>
-          </Maintenances>
-        </Maintenance>
-        <Attackable>
-          <MaximumHitPoints>1750</MaximumHitPoints>
-          <SelfHealPerHealTick>4</SelfHealPerHealTick>
-        </Attackable>
-        <Pausable/>
-        <IncidentInfectable>
-          <Infectable>
-            <Explosion>
-              <Base>0</Base>
-              <Escalated>0</Escalated>
-            </Explosion>
-          </Infectable>
-          <Explosion>
-            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
-          </Explosion>
-          <IncidentInfectionChanceFactors>
-            <Fire>
-              <DensityDistance>20</DensityDistance>
-              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-            </Fire>
-            <Riot>
-              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
-              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
-              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
-              <HappinessThreshold>20</HappinessThreshold>
-            </Riot>
-          </IncidentInfectionChanceFactors>
-        </IncidentInfectable>
-        <Industrializable/>
-        <Culture>
-          <Attractiveness>-15</Attractiveness>
-          <CultureType>Military</CultureType>
-        </Culture>
-        <QuestObject/>
-        <Electrifiable/>
-        <EcoSystemProvider/>
-      </Values>
-    </Asset>
-  </ModOp>
-
-
+              </TriggerCondition>
+              <TriggerActions>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action/>
+                      <ActionUnlockAsset>
+                        <UnhideAssets>
+                          <Item>
+                            <Asset>1404422300</Asset>
+                            <!-- 1404422300 -->
+                          </Item>
+                          <Item>
+                            <Asset>1404422305</Asset>
+                            <!-- 1404422305 -->
+                          </Item>
+                          <Item>
+                            <Asset>1404422310</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1404422306</Asset>
+                          </Item>
+                        </UnhideAssets>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1404422300</Asset>
+                            <!-- 1404422300 -->
+                          </Item>
+                          <Item>
+                            <Asset>1404422305</Asset>
+                            <!-- 1404422305 -->
+                          </Item>
+                          <Item>
+                            <Asset>1404422310</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1404422306</Asset>
+                          </Item>
+                        </UnlockAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+              </TriggerActions>
+            </Trigger>
+            <TriggerSetup/>
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group>
 </ModOps>

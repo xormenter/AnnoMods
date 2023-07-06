@@ -41,7 +41,6 @@ Overview:
 - Large Rendering Works (Tallow)
 - Large Soap Factory
 - Industrial Pig Farm (requires a silo supplied with Corn + Potatoes; gets a -1000% productivity debuff unless it is supplied with food)
-
 Additionally, there is a cattle version of the pig farm. *It requires both the Cattle needs to be butchered mod and Jakobs Shared Goods. *
 
 - Industrial Cattle Farm, produces cattle (requires a silo supplied with Corn + Grain), allows the production of milk from cattle using the 'fertilizer' module
@@ -73,7 +72,6 @@ to
 ```xml
 <Group ModOpID="CherryWoodCutter">
 ```
-
 ## Small Pier
 
 Personally, I find the default pier in Anno 1800 quite... ugly. It just doesn't fit nicely in my harbors.

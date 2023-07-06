@@ -1,8 +1,16 @@
 {
-  "Version": "1.1",
-  "ModID": "Small Piers",
+  "Version": "1.4",
+  "ModID": "Cattle Needs to be butchered",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+    "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_extended_kurila.zip"
+  ],
+  "LoadAfterIds": [
+    "IndustrializedLowTierProduction"
+   ],
   "IncompatibleIds": null,
-  "ModDependencies": null,
   "Category": {
     "Chinese": null,
     "English": "Gameplay",
@@ -18,9 +26,9 @@
   },
   "ModName": {
     "Chinese": null,
-    "English": "Small and Diagonal Piers",
+    "English": "Cattle Needs to be butchered",
     "French": null,
-    "German": "Small and Diagonal Piers",
+    "German": "Cattle Needs to be butchered",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -31,7 +39,7 @@
   },
   "Description": {
     "Chinese": null,
-    "English": "Adds pier variations and ornaments, including diagonal piers.",
+    "English": "Adds a cattle butcher.",
     "French": null,
     "German": null,
     "Italian": null,
@@ -42,7 +50,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": "Blocking cannot handle diagonal buildings, so you'll have to avoid clipping yourself.",
+  "KnownIssues": null,
   "DLCDependencies": null,
   "CreatorName": "Lordys alias xormenter",
   "CreatorContact": "https://github.com/xormenter/AnnoMods or over at https://discord.gg/YTQGDFK ",

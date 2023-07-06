@@ -1,8 +1,13 @@
 {
-  "Version": "1.6",
+  "Version": "2.0",
   "ModID": "IndustrializedLowTierProduction",
+  "ModDependencies": [
+    "https://github.com/anno-mods/shared-resources/releases/download/v7/shared-pools-and-definitions.zip"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
   "IncompatibleIds": null,
-  "ModDependencies": null,
   "Category": {
     "Chinese": null,
     "English": "Gameplay",

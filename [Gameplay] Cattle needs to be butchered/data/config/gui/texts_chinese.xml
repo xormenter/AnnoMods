@@ -24,5 +24,10 @@
 			<GUID>1404422310</GUID>
 			<Text>大型屠宰场</Text>
 		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>1500300915</GUID>
+			<Text>All Butcheries</Text>
+		</Text>
 	</ModOp>
 </ModOps>
