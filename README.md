@@ -6,12 +6,17 @@ For screenshots, I refer to their respective Nexus pages. https://www.nexusmods.
 # How to use
 
 - Get the mod loader https://github.com/xforce/anno1800-mod-loader
-
 - [Download the repository](https://github.com/xormenter/AnnoMods/releases) and place the mod folders into your anno mods folder (alternatively: use your mod manager)
 
 Alternatively, you can use the [iModYourAnno](https://github.com/anno-mods/iModYourAnno) Mod Manager.
 
 ## Industrialized Low Tier Production
+
+### Requires:
+
+- Shared Goods Collection: https://github.com/jakobharder/anno-1800-jakobs-mods
+
+- Cattle needs to be Butchered
 
 ### About
 
@@ -36,16 +41,18 @@ Overview:
 - Large Rendering Works (Tallow)
 - Large Soap Factory
 - Industrial Pig Farm (requires a silo supplied with Corn + Potatoes; gets a -1000% productivity debuff unless it is supplied with food)
-- Industrial Cattle Farm(requires a silo supplied with Corn + Grain), allows the production of milk from cattle using the 'fertilizer' module
+Additionally, there is a cattle version of the pig farm. *It requires both the Cattle needs to be butchered mod and Jakobs Shared Goods. *
+
+- Industrial Cattle Farm, produces cattle (requires a silo supplied with Corn + Grain), allows the production of milk from cattle using the 'fertilizer' module
 
 Thanks to Jakob for making the flour mill ground decal and the wonderful modular ground decal package.
 
 ## Cattle Needs to be Butchered
 
-Don't you find it a bit weird that a pig farm produces pigs while a cattle farm produces ... meat? Then this mod is for you: Cattle farms now produce cattle instead of meat. The cattle then needs to be butchered at a butchery before its meat can be processed.
+Don't you find it a bit weird that a pig farm produces pigs while a cattle farm produces ... meat? Then this mod is for you: Cattle farms now produce cattle instead of beef. The cattle then needs to be butchered at a butchery before its meat can be processed.
 Adds two 3d models for the butchery (NW/OW).
-The butchery unlocks at 1 artisan. The old world variant employs workers, the new world one jornaleros. Both have a production time of 30s.
-Also adds an bigger version of the OW butchery with a production time of 10 seconds.
+The butchery unlocks at 1 artisan. The old world variant employs workers, the new world one jornaleros. Both have a production time of 120s.
+Also adds an bigger version of the OW butchery with a production time of 30 seconds if Industrialized Low Tier Production is activ.
 
 ## Small Pier
 
