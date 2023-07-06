@@ -12,7 +12,7 @@
       <GUID>1404423011</GUID>
       <Text>Fortschrittliche Brotproduktion</Text>
     </Text>
-      <Text>
+    <Text>
       <GUID>1404423015</GUID>
       <Text>Textilfabrik</Text>
     </Text>
@@ -52,7 +52,7 @@
       <GUID>1404423031</GUID>
       <Text>Fortschrittliche Segelproduktion</Text>
     </Text>
-      <Text>
+    <Text>
       <GUID>1404423035</GUID>
       <Text>Wurstwarenfabrik</Text>
     </Text>
@@ -60,7 +60,7 @@
       <GUID>1404423036</GUID>
       <Text>Fortschrittliche Wurstproduktion</Text>
     </Text>
-  <Text>
+    <Text>
       <GUID>1404423040</GUID>
       <Text>Großer Hochofen</Text>
     </Text>
@@ -92,7 +92,7 @@
       <GUID>1404423052</GUID>
       <Text>Fortschrittliche Seifenherstellung</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1404423054</GUID>
       <Text>Gefütterte Tiere</Text>
     </Text>
@@ -118,7 +118,7 @@
     </Text>
     <Text>
       <GUID>1404423067</GUID>
-      <Text>Produziert Milch aus Kühen.</Text>
+      <Text>Produziert Milch aus Rindern.</Text>
     </Text>
     <Text>
       <GUID>1404423068</GUID>
@@ -126,11 +126,11 @@
     </Text>
     <Text>
       <GUID>1404423065</GUID>
-      <Text>Industrielle Kuhhaltung</Text>
+      <Text>Industrielle Rinderhhaltung</Text>
     </Text>
     <Text>
       <GUID>1404423066</GUID>
-      <Text>Großer Kuhstall</Text>
+      <Text>Großer Rinderstall</Text>
     </Text>
     <Text>
       <GUID>1404423062</GUID>
@@ -138,7 +138,7 @@
     </Text>
     <Text>
       <GUID>1404423064</GUID>
-      <Text>Silo (Kuhfutter)</Text>
+      <Text>Silo (Rinderfutter)</Text>
     </Text>
   </ModOp>
 </ModOps>
