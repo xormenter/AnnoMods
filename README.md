@@ -5,7 +5,7 @@ For screenshots, I refer to their respective Nexus pages. https://www.nexusmods.
 
 # How to use
 
-- Get the mod loader https://github.com/xforce/anno1800-mod-loader
+- Get the mod loader https://github.com/xforce/anno1800-mod-loader 
 - [Download the repository](https://github.com/xormenter/AnnoMods/releases) and place the mod folders into your anno mods folder (alternatively: use your mod manager)
 
 Alternatively, you can use the [iModYourAnno](https://github.com/anno-mods/iModYourAnno) Mod Manager.
@@ -49,11 +49,29 @@ Thanks to Jakob for making the flour mill ground decal and the wonderful modular
 
 ## Cattle Needs to be Butchered
 
-Don't you find it a bit weird that a pig farm produces pigs while a cattle farm produces ... meat? Then this mod is for you: Cattle farms now produce cattle instead of beef. The cattle then needs to be butchered at a butchery before its meat can be processed.
+Don't you find it a bit weird that a pig farm produces pigs while a cattle farm produces ... meat? Then this mod is for you: Cattle farms now produce cattle instead of meat. The cattle then needs to be butchered at a butchery before its meat can be processed.
 Adds two 3d models for the butchery (NW/OW).
-The butchery unlocks at 1 artisan. The old world variant employs workers, the new world one jornaleros. Both have a production time of 120s.
-Also adds an bigger version of the OW butchery with a production time of 30 seconds if Industrialized Low Tier Production is activ.
+The butchery unlocks at 1 artisan. The old world variant employs workers, the new world one jornaleros. Both have a production time of 30s.
+Also adds an bigger version of the OW butchery with a production time of 10 seconds.
 
+## Orchard Rework
+
+- The Orchards have been converted to Farms, including Item changes.
+- The required number of fields can be set via Imya. https://github.com/anno-mods/iModYourAnno
+- The Cherry Wood Orchard(Farm) can be converted into a Woodcutter via Imya, including Item changes. https://github.com/anno-mods/iModYourAnno
+**Attention! Switching from Orchard(Farm) to Woodcutter is currently not possible via Imya, Imya must first receive an update.**
+
+However, it can be set manually in the assets, change
+
+```xml
+<Group ModOpID="CherryWoodCutter" Skip="1">
+```
+
+to
+
+```xml
+<Group ModOpID="CherryWoodCutter">
+```
 ## Small Pier
 
 Personally, I find the default pier in Anno 1800 quite... ugly. It just doesn't fit nicely in my harbors.

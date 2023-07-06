@@ -1,0 +1,73 @@
+{
+  "Version": "2.0",
+  "ModID": "OrchardRework",
+  "DeprecateIds": [
+    "[Gameplay] Orchard Rework"
+  ],
+  "ModDependencies": [
+    "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_extended_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v2/shared_info_description_parts_kurila.zip"
+  ],
+  "LoadAfterIds": [
+    "shared_products_kurila",
+    "shared_extended_products_kurila"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Orchard Rework",
+    "English": "Orchard Rework",
+    "French": "Orchard Rework",
+    "German": " Orchard Rework",
+    "Italian": "Orchard Rework",
+    "Japanese": "Orchard Rework",
+    "Korean": "Orchard Rework",
+    "Polish": "Orchard Rework",
+    "Russian": "Orchard Rework",
+    "Spanish": "Orchard Rework",
+    "Taiwanese": "Orchard Rework"
+  },
+  "Description": {
+    "English": "Convert the orchards into farms.",
+    "German": "Baut die Baumschulen zu Farmen um.",
+    "Chinese": "Convert the orchards into farms.",
+    "French": "Convert the orchards into farms.",
+    "Italian": "Convert the orchards into farms.",
+    "Japanese": "Convert the orchards into farms.",
+    "Korean": "Convert the orchards into farms.",
+    "Polish": "Convert the orchards into farms.",
+    "Russian": "Convert the orchards into farms.",
+    "Spanish": "Convert the orchards into farms.",
+    "Taiwanese": "Convert the orchards into farms."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "Required"
+    },
+    {
+      "DLC": "Highlife",
+      "Dependant": "Required"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+],
+  "CreatorName": "Lrds/xormenter",
+  "Image": null
+}

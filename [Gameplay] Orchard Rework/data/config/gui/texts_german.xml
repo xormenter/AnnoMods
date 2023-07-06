@@ -1,208 +1,130 @@
 <ModOps>
-	<!-- Products -->
-  <ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404420030</GUID>
-			<Text>Kirschen</Text>
-		</Text>
-		<Text>
-			<GUID>1404420031</GUID>
-			<Text>Im Gegensatz zu Konfitüre wachsen diese sogar auf Bäumen.</Text>
-		</Text>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<!-- Products -->
+			<Text>
+				<GUID>1404420031</GUID>
+				<Text>Im Gegensatz zu Konfitüre wachsen diese sogar auf Bäumen.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420033</GUID>
+				<Text>One apple a day keeps Mr. Gasparov away, right?</Text>
+			</Text>
+		<!-- Orchards -->
+			<Text>
+				<GUID>1404420046</GUID>
+				<Text>Baumschule: Äpfel</Text>
+			</Text>
+			<Text>
+				<GUID>133496</GUID>
+				<Text>Baumschule: Kirschen</Text>
+			</Text>
+		<!-- Orchard Fields-->
+			<Text>
+				<GUID>1404420000</GUID>
+				<Text>Zitrusplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420001</GUID>
+				<Text>Kokusnussplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420002</GUID>
+				<Text>Zimtplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420003</GUID>
+				<Text>Kampferplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420004</GUID>
+				<Text>Kirschplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420005</GUID>
+				<Text>Apfelplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420006</GUID>
+				<Text>Baumplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420007</GUID>
+				<Text>Kirschwald</Text>
+			</Text>
 
-		<Text>
-			<GUID>1404420032</GUID>
-			<Text>Äpfel</Text>
-		</Text>
-		<Text>
-			<GUID>1404420033</GUID>
-			<Text>One apple a day keeps Mr. Gasparov away, right?</Text>
-		</Text>
-	</ModOp>
-	<!-- Orchards -->
-  <ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404420010</GUID>
-			<Text>Zitrusfruchtplantage</Text>
-		</Text>
-		<Text>
-			<GUID>1404420011</GUID>
-			<Text>Produziert Waren.</Text>
-		</Text>
-		<Text>
-			<GUID>1404420014</GUID>
-			<Text>Kokusnussplantage</Text>
-		</Text>
-		<Text>
-			<GUID>1404420015</GUID>
-			<Text>Produziert Waren.</Text>
-		</Text>
-		<Text>
-			<GUID>1404420018</GUID>
-			<Text>Zimtplantage</Text>
-		</Text>
-		<Text>
-			<GUID>1404420019</GUID>
-			<Text>Produziert Waren.</Text>
-		</Text>
-		<Text>
-			<GUID>1404420022</GUID>
-			<Text>Kampferplantage</Text>
-		</Text>
-		<Text>
-			<GUID>1404420023</GUID>
-			<Text>Produziert Waren.</Text>
-		</Text>
-		<Text>
-			<GUID>1404420046</GUID>
-			<Text>Obstgarten: Äpfel</Text>
-		</Text>
-		<Text>
-			<GUID>1404420041</GUID>
-			<Text>Produziert Waren.</Text>
-		</Text>
-		<Text>
-			<GUID>133496</GUID>
-			<Text>Obstgarten: Kirschen</Text>
-		</Text>
-		<Text>
-			<GUID>1404420047</GUID>
-			<Text>Produziert Waren.</Text>
-		</Text>
-	</ModOp>
-	<!-- Orchard Fields-->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404420000</GUID>
-			<Text>Zitrusfeld</Text>
-		</Text>
-		<Text>
-			<GUID>1404420001</GUID>
-			<Text>Kokusnussfeld</Text>
-		</Text>
-		<Text>
-			<GUID>1404420002</GUID>
-			<Text>Zimtfeld</Text>
-		</Text>
-		<Text>
-			<GUID>1404420003</GUID>
-			<Text>Kampferfeld</Text>
-		</Text>
-		<Text>
-			<GUID>1404420004</GUID>
-			<Text>Kirschfeld</Text>
-		</Text>
-		<Text>
-			<GUID>1404420005</GUID>
-			<Text>Apfelfeld</Text>
-		</Text>
-		<Text>
-			<GUID>1404420006</GUID>
-			<Text>Baumplantage</Text>
-		</Text>
-		<Text>
-			<GUID>1404420007</GUID>
-			<Text>Kirschwald</Text>
-		</Text>
-	</ModOp>
-	<!-- Jam Manufactory -->
-  <ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404420042</GUID>
-			<Text>Konfitüremanufaktur</Text>
-		</Text>
-		<Text>
-			<GUID>1404420043</GUID>
-			<Text>Produziert Waren. Benötigt 2 Kirschen und 1 Zucker für 2 Konfitüre.</Text>
-		</Text>
+		<!-- Jam Manufactory -->
+			<Text>
+				<GUID>1404420042</GUID>
+				<Text>Konfitürenmanufaktur</Text>
+			</Text>
+		<!-- Extended InfoDesciption -->
+			<Text>
+				<GUID>1404420043</GUID>
+				<Text>[AssetData(1500300045) Text][AssetData(1404420011) Text][AssetData(1404420015) Text][AssetData(11143) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404420011</GUID>
+				<Text>&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1404420030) Icon]"/&gt; [AssetData(1404420030) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+			</Text>
+			<Text>
+				<GUID>1404420015</GUID>
+				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0,5t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010239) Icon]"/&gt;[AssetData(1010239) Text]&lt;/font&gt;&#xD;&#xA;&#xD;&#xA;</Text>
+			</Text>
 		<!-- Building Category -->
-		<Text>
-			<GUID>1404420044</GUID>
-			<Text>Konfitüre</Text>
-		</Text>
-		<Text>
-			<GUID>2000010016</GUID>
-			<Text>Die Herstellung von Konfitüre ist aufwändiger als so mancher es sich vorstellen kann.</Text>
-		</Text>
-	</ModOp>
-	<!-- Building Categories -->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404419501</GUID>
-			<Text>Obstgärten</Text>
-		</Text>
-		<Text>
-			<GUID>1404419502</GUID>
-			<Text>Produzieren Obst.</Text>
-		</Text>
-		<!-- South America -->
-		<Text>
-			<GUID>1404419505</GUID>
-			<Text>Obstplantagen (Neue Welt)</Text>
-		</Text>
-		<Text>
-			<GUID>1404419506</GUID>
-			<Text>Produzieren Waren.</Text>
-		</Text>
-	</ModOp>
-	<!-- Apple Pie Recipe -->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404419000</GUID>
-			<Text>Apfelstrudel</Text>
-		</Text>
-		<Text>
-			<GUID>1404419001</GUID>
-			<Text>Ein herrlicher Apfelstrudel mit frischen und saftigen Äpfeln. Es mag ein simples Gericht sein, doch die Touristen lieben es.</Text>
-		</Text>
-	</ModOp>
-	<!-- Apple Pie Effect (strong) -->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404419006</GUID>
-			<Text>Apfelstrudel</Text>
-		</Text>
-	</ModOp>
-	<!-- Apple Pie Effect -->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404419007</GUID>
-			<Text>Apfelstrudel</Text>
-		</Text>
-	</ModOp>
-	<!-- Cafe Apple Pie -->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404419005</GUID>
-			<Text>Cafe: Apfelstrudel</Text>
-		</Text>
+			<Text>
+				<GUID>1404420044</GUID>
+				<Text>[AssetData(133183) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419500</GUID>
+				<Text>[AssetData(132933) Text]</Text>
+			</Text>
+		<!-- Apple Pie  -->
+			<Text>
+				<GUID>1404419000</GUID>
+				<Text>Apfelstrudel</Text>
+			</Text>
+			<Text>
+				<GUID>1404419001</GUID>
+				<Text>Ein herrlicher Apfelstrudel mit frischen und saftigen Äpfeln. Es mag ein simples Gericht sein, doch die Touristen lieben es.</Text>
+			</Text>
+			<Text>
+				<GUID>1404419006</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419007</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419005</GUID>
+				<Text>[AssetData(132782) Text]: [AssetData(1404419000) Text]</Text>
+			</Text>
+		<!-- Specialists -->
+			<Text>
+				<GUID>1404420050</GUID>
+				<Text>John der Baumumarmer</Text>
+			</Text>
+			<Text>
+				<GUID>1404420051</GUID>
+				<Text>Er liebt Bäume. Und sie lieben ihn.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420052</GUID>
+				<Text>Marlene, Mutter der Marmeladen</Text>
+			</Text>
+			<Text>
+				<GUID>1404420053</GUID>
+				<Text>Sie ist weltberühmt für ihre köstliche Konfitüre.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420054</GUID>
+				<Text>Clara die Kirschenpickerin</Text>
+			</Text>
+			<Text>
+				<GUID>1404420055</GUID>
+				<Text>Sie mag auch gerne Rosinen.</Text>
+			</Text>
 	</ModOp>
 
-	<!-- Specialists -->
-	<ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1404420050</GUID>
-			<Text>John der Baumumarmer</Text>
-		</Text>
-		<Text>
-			<GUID>1404420051</GUID>
-			<Text>Er liebt Bäume. Und sie lieben ihn.</Text>
-		</Text>
-		<Text>
-			<GUID>1404420052</GUID>
-			<Text>Marlene, Mutter der Marmeladen</Text>
-		</Text>
-		<Text>
-			<GUID>1404420053</GUID>
-			<Text>Sie ist weltberühmt für ihre köstliche Konfitüre.</Text>
-		</Text>
-		<Text>
-			<GUID>1404420054</GUID>
-			<Text>Clara die Kirschenpickerin</Text>
-		</Text>
-		<Text>
-			<GUID>1404420055</GUID>
-			<Text>Sie mag auch gerne Rosinen.</Text>
-		</Text>
-	</ModOp>
 </ModOps>
