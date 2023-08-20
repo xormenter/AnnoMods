@@ -15,8 +15,8 @@
   ],
   "IncompatibleIds": null,
   "Category": {
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
-    "Chinese": "Gameplay",
     "French": "Gameplay",
     "German": "Gameplay",
     "Italian": "Gameplay",
@@ -28,7 +28,7 @@
     "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": "Orchard Rework",
+    "Chinese": "果园转换为农场",
     "English": "Orchard Rework",
     "French": "Orchard Rework",
     "German": " Orchard Rework",
@@ -41,6 +41,7 @@
     "Taiwanese": "Orchard Rework"
   },
   "Description": {
+    "Chinese": "果园被转换为农场，包括物品的变化.",
     "English": "Convert the orchards into farms.",
     "German": "Baut die Baumschulen zu Farmen um.",
     "Chinese": "Convert the orchards into farms.",

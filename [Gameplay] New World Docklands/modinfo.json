@@ -5,7 +5,7 @@
   ],
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Gameplay",
@@ -18,7 +18,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "新世界港区",
     "English": "New World Docklands",
     "French": null,
     "German": "Die Speicherstadt der Neuen Welt",
@@ -31,7 +31,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "把码头区添加到新世界",
     "English": "Adds Docklands to the New Worlds",
     "French": null,
     "German": "Fügt eine Speicherstadt für die neue Welt hinzu.",

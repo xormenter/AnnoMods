@@ -4,7 +4,7 @@
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Spielablauf",
@@ -17,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "工业化生产渔业",
     "English": "Industrialized Low Tier Production Fishery",
     "French": null,
     "German": "Industrialized Low Tier Production Fishery",
@@ -30,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "增加了工业化渔业建筑",
     "English": "Adds an industrialized fishery",
     "French": null,
     "German": null,

@@ -1,0 +1,71 @@
+<ModOps>
+	<!-- Products -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1404422063</GUID>
+			<Text>仓库</Text>
+		</Text>
+		<Text>
+			<GUID>1404422090</GUID>
+			<Text>仓库(无堵塞)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422070</GUID>
+			<Text>码头区</Text>
+		</Text>
+		<Text>
+			<GUID>1404422060</GUID>
+			<Text>码头</Text>
+		</Text>
+		<Text>
+			<GUID>1404422077</GUID>
+			<Text>修理起重机</Text>
+		</Text>
+		<Text>
+			<GUID>1404422061</GUID>
+			<Text>港务总管办公室</Text>
+		</Text>
+		<Text>
+			<GUID>1404422078</GUID>
+			<Text>装货码头</Text>
+		</Text>
+		<Text>
+			<GUID>1404422079</GUID>
+			<Text>装货码头(街道牌坊)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422062</GUID>
+			<Text>出口办公室</Text>
+		</Text>
+
+
+		<Text>
+			<GUID>1404422093</GUID>
+			<Text>仓库</Text>
+		</Text>
+		<Text>
+			<GUID>1404422099</GUID>
+			<Text>仓库(无堵塞)</Text>
+		</Text>
+		<Text>
+			<GUID>1404422094</GUID>
+			<Text>码头</Text>
+		</Text>
+		<Text>
+			<GUID>1404422095</GUID>
+			<Text>修理起重机</Text>
+		</Text>
+		<Text>
+			<GUID>1404422098</GUID>
+			<Text>港务总管办公室</Text>
+		</Text>
+		<Text>
+			<GUID>1404422096</GUID>
+			<Text>装货码头</Text>
+		</Text>
+		<Text>
+			<GUID>1404422092</GUID>
+			<Text>出口办公室</Text>
+		</Text>
+	</ModOp>
+</ModOps>

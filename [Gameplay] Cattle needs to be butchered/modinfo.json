@@ -12,7 +12,7 @@
    ],
   "IncompatibleIds": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Spielablauf",
@@ -25,7 +25,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "牛需要被宰杀",
     "English": "Cattle Needs to be butchered",
     "French": null,
     "German": "Cattle Needs to be butchered",
@@ -38,7 +38,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "增加一个宰牛的屠夫。",
     "English": "Adds a cattle butcher.",
     "French": null,
     "German": null,
