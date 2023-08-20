@@ -9,7 +9,7 @@
    ],
   "IncompatibleIds": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Spielablauf",
@@ -22,7 +22,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "工业化生产低端产业",
     "English": "Industrialized Low Tier Production",
     "French": null,
     "German": "Industrialized Low Tier Production",
@@ -35,7 +35,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "添加工业化建筑，如木材，工作服，帆，杜松子酒，面粉，面包，香肠，鱼，钢，钢梁",
     "English": "Adds industrialized buildings for like timber, workclothes, sails, schnapps, flour, bread, sausages, fish, steel, steel beams",
     "French": null,
     "German": null,
